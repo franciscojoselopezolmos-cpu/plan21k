@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Plan 21K">
+<meta name="application-name" content="Plan 21K">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#000000">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Plan personal de media maratón. Funciona sin conexión.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<title>Plan 21K</title>
+<script>
+/* Informe de errores al PC (en casa; fuera de casa falla en silencio) y aviso visible si la app no arranca */
+(function () {
+  var V = '1.1.0', enviados = 0;
+  var PC = location.hostname === '192.168.1.41' ? '' : 'https://192.168.1.41:8443';
+  function enviar(tipo, datos) {
+    if (enviados++ > 20) return;
+    try {
+      fetch(PC + '/api/log', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, keepalive: true,
+        body: JSON.stringify({ tipo: tipo, v: V, url: location.href, ua: navigator.userAgent, standalone: !!navigator.standalone, datos: datos })
+      }).catch(function () {});
+    } catch (e) {}
+  }
+  window.__informar = enviar;
+  window.addEventListener('error', function (e) {
+    var t = e.target && e.target !== window ? e.target : null;
+    enviar('error', {
+      msg: e.message || '', src: e.filename || '', linea: e.lineno || 0, col: e.colno || 0,
+      pila: e.error && e.error.stack ? String(e.error.stack).slice(0, 2000) : '',
+      recurso: t ? (t.src || t.href || t.tagName) : ''
+    });
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) {
+    var r = e.reason;
+    enviar('promesa', { msg: r && r.message ? r.message : String(r), pila: r && r.stack ? String(r.stack).slice(0, 2000) : '' });
+  });
+  try {
+    if (!sessionStorage.getItem('pr-inicio')) { sessionStorage.setItem('pr-inicio', '1'); enviar('inicio', {}); }
+  } catch (e) {}
+  setTimeout(function () {
+    var v = document.getElementById('vista');
+    if (v && v.querySelector('.cargando')) {
+      enviar('atascada', { html: v.innerHTML.slice(0, 300) });
+      v.insertAdjacentHTML('beforeend', '<p class="noscript">La app no ha terminado de cargar. Si estás en la wifi de casa, el error ya ha llegado al PC.</p>');
+    }
+  }, 8000);
+})();
+</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<div class="barra-estado" aria-hidden="true"></div>
+
+<main id="vista" tabindex="-1">
+  <div class="cargando"><span class="spinner" aria-hidden="true"></span>Cargando el plan…</div>
+</main>
+
+<nav id="tabs" class="tabs" aria-label="Secciones">
+  <button type="button" data-a="tab" data-tab="hoy" aria-current="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+    <span>Hoy</span>
+  </button>
+  <button type="button" data-a="tab" data-tab="semana">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16.5" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>
+    <span>Semana</span>
+  </button>
+  <button type="button" data-a="tab" data-tab="progreso">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M6 17.5v-5M11 17.5V6M16 17.5v-8M20.5 17.5v-3"/></svg>
+    <span>Progreso</span>
+  </button>
+  <button type="button" data-a="tab" data-tab="mas">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="7.6" cy="12" r="1.1" class="relleno"/><circle cx="12" cy="12" r="1.1" class="relleno"/><circle cx="16.4" cy="12" r="1.1" class="relleno"/></svg>
+    <span>Más</span>
+  </button>
+</nav>
+
+<div id="hoja-fondo" class="hoja-fondo" hidden>
+  <section id="hoja" class="hoja" role="dialog" aria-modal="true" aria-label="Detalle"></section>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<noscript><p class="noscript">Plan 21K necesita JavaScript.</p></noscript>
+</body>
+</html>
