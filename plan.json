@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "2026-10-19",
+  "actualizado": "2026-10-21",
   "carrera": {
     "nombre": "TotalEnergies Media Maratón Murcia Costa Cálida",
     "fecha": "2027-02-07",
@@ -99,8 +99,8 @@
     {
       "id": "s1-5",
       "desde": "2026-10-15",
-      "hasta": "2026-11-24",
-      "nombre": "Reconstrucción (VDOT ~35,5; hasta el test 5K del 24-nov)",
+      "hasta": "2026-11-25",
+      "nombre": "Reconstrucción (VDOT ~35,5; hasta el test 5K del 25-nov)",
       "tabla": [
         {
           "tipo": "Recuperación",
@@ -151,9 +151,9 @@
     },
     {
       "id": "s6-10",
-      "desde": "2026-11-25",
+      "desde": "2026-11-26",
       "hasta": "2026-12-27",
-      "nombre": "Base (VDOT ~37; se recalibra con el test 5K de la S6, el 24-nov)",
+      "nombre": "Base (VDOT ~37; se recalibra con el test 5K de la S6, el 25-nov)",
       "tabla": [
         {
           "tipo": "Recuperación",
@@ -302,7 +302,7 @@
         0,
         5
       ],
-      "descripcion": "Volver a correr 5 días sin molestias y recuperar el fondo con rodajes suaves de verdad (por FC), con calidad el martes desde la S1, como ya hacías en septiembre: 6×400 (S1), fartlek a ritmo maratón (S2) y umbral a 5:41-5:46 (3×6' en la S3, 3×5' en la descarga de la S4 y 4×6' en la S5); cuestas cortas en la cinta del jueves de la S3. El test 5K, en pista, abre la S6. Gimnasio dos días, como venías haciendo: torso el miércoles (con cinta opcional desde la S3) y pierna el jueves en fuerza máxima desde la S1."
+      "descripcion": "Volver a correr 5 días sin molestias y recuperar el fondo con rodajes suaves de verdad (por FC), con calidad desde la S1, como ya hacías en septiembre: 6×400 (martes de la S1) y, desde la S2, el miércoles: fartlek a ritmo maratón (S2) y umbral a 5:41-5:46 (3×6' en la S3, 3×5' en la descarga de la S4 y 4×6' en la S5); cuestas cortas en la cinta del jueves de la S3. El test 5K, en pista, es el miércoles de la S6. Gimnasio dos días, alternando con la carrera: torso el martes (con cinta opcional desde la S3; en la S1, el miércoles) y pierna el jueves en fuerza máxima desde la S1."
     },
     {
       "id": "base",
@@ -311,7 +311,7 @@
         6,
         10
       ],
-      "descripcion": "Subir hasta ~40 km por semana con umbral semanal, tiradas de 11,5 a 16,6 km, primeros finales a ritmo maratón y primeras series de VO2máx; subumbral o umbral en la cinta del jueves. Test 5K en pista (martes de la S6) y test 10K en La Manga (S8). Pierna en fuerza máxima con pliometría el jueves y torso el miércoles."
+      "descripcion": "Subir hasta ~40 km por semana con umbral semanal el miércoles, tiradas de 11,5 a 16,6 km, primeros finales a ritmo maratón y primeras series de VO2máx; en Navidad (S10), tempo moderado el lunes como calidad secundaria. Test 5K en pista (miércoles de la S6) y test 10K en La Manga (S8). Torso el martes y pierna en fuerza máxima con pliometría el jueves, tras una cinta suave."
     },
     {
       "id": "especifica",
@@ -320,7 +320,7 @@
         11,
         14
       ],
-      "descripcion": "Convertir el umbral en ritmo de media: alternos, bloques a ritmo objetivo, tres tiradas de 18-20 km, 9K de control (S12) y simulación (S14). Pierna de potencia y mantenimiento; torso el miércoles."
+      "descripcion": "Convertir el umbral en ritmo de media: alternos, bloques a ritmo objetivo, tres tiradas de 18-20 km, 9K de control (S12) y simulación (S14). Calidad el miércoles; torso el martes y pierna de potencia y mantenimiento el jueves."
     },
     {
       "id": "taper",
@@ -329,7 +329,7 @@
         15,
         16
       ],
-      "descripcion": "Volumen al ~75 % y al ~45-55 % manteniendo la intensidad. Última pierna, ligera, el 28-ene; en la semana de carrera, solo torso ligero y opcional el miércoles. Carrera el domingo 7-feb a las 9:30."
+      "descripcion": "Volumen al ~75 % y al ~45-55 % manteniendo la intensidad. Última pierna, ligera, el 28-ene; en la semana de carrera, afinado el miércoles y solo torso ligero y opcional el martes. Carrera el domingo 7-feb a las 9:30."
     },
     {
       "id": "recuperacion",
@@ -344,7 +344,7 @@
   "tests": [
     {
       "semana": 6,
-      "fecha": "2026-11-24",
+      "fecha": "2026-11-25",
       "hora": "por confirmar",
       "nombre": "Test 5K en pista (en solitario)",
       "distancia": "5K",
@@ -367,7 +367,7 @@
         "T": 1495,
         "L": 1425
       },
-      "nota": "Sustituye al 5K de Molina del 22-nov, al que no puedes ir. Martes al salir del trabajo, en lugar de la calidad. Cuenta solo si es en pista, con menos de 15 °C, sin viento fuerte y con dos días suaves antes (domingo de descanso y lunes suave). Si ese martes no se dan las condiciones, pásalo al mié 25-nov y la cinta del jueves es fácil. Sin pista: TT30 en llano (30' a tope): alarma < 5,47 km · B ≥ 5,70 km · A ≥ 5,85 km."
+      "nota": "Sustituye al 5K de Molina del 22-nov, al que no puedes ir. Miércoles al salir del trabajo, en lugar de la calidad. Cuenta solo si es en pista, con menos de 15 °C, sin viento fuerte y con dos días suaves antes (lunes de rodaje suave y martes de torso). Si ese miércoles no se dan las condiciones, pásalo al jue 26-nov y ese día no hay pierna. Sin pista: TT30 en llano (30' a tope): alarma < 5,47 km · B ≥ 5,70 km · A ≥ 5,85 km."
     },
     {
       "semana": 8,
@@ -456,7 +456,7 @@
       "fase": "Fuerza máxima (S1-S3, S5-S7 y S9-S11, jueves; en las descargas S4 y S8, la versión A2d)",
       "duracionMin": 40,
       "calentamiento": "Vienes caliente de la cinta: 3' de movilidad de cadera y tobillo y 2 series de aproximación del primer ejercicio pesado (al 50 % y al 70 %). La pliometría va antes de las pesas, con las piernas frescas.",
-      "nota": "Una sola sesión pesada de pierna a la semana: con tu experiencia (y meses sin dejar el gimnasio) basta para mantener y mejorar la fuerza (en Rønnestad 2010, una sesión semanal mantuvo lo ganado). Desde la S1, sin fase de adaptación: si alguna semana te notas cargado del martes, deja RIR 3. Sube la carga solo si todas las series salen con RIR 2 o más, y nunca en la semana de más km. Si el sábado lleva bloques a ritmo o el domingo hay test, quita 1 serie de sentadilla y de peso muerto y deja RIR 3.",
+      "nota": "Una sola sesión pesada de pierna a la semana: con tu experiencia (y meses sin dejar el gimnasio) basta para mantener y mejorar la fuerza (en Rønnestad 2010, una sesión semanal mantuvo lo ganado). Desde la S1, sin fase de adaptación: si alguna semana te notas cargado de la calidad del miércoles, deja RIR 3. Sube la carga solo si todas las series salen con RIR 2 o más, y nunca en la semana de más km. Si el sábado lleva bloques a ritmo o el domingo hay test, quita 1 serie de sentadilla y de peso muerto y deja RIR 3.",
       "ejercicios": [
         {
           "nombre": "Pogo jumps",
@@ -751,7 +751,7 @@
     },
     "T": {
       "nombre": "Torso (tirón y empuje + core antirrotación)",
-      "fase": "Torso (S1-S15, miércoles; en la S16, la versión ligera TL)",
+      "fase": "Torso (S2-S15, martes; en la S1, el miércoles 21; en la S16, la versión ligera TL el martes)",
       "duracionMin": 45,
       "calentamiento": "Si vienes de la cinta, 3' de movilidad de hombros con goma (rotaciones y aperturas); si no, 5' de remo o elíptica suave antes. Después, 1-2 series de aproximación del primer ejercicio.",
       "nota": "Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test (S6, S8 y S12). Esta es una referencia de ~40-45': tirón y empuje, horizontal y vertical, y core antirrotación, con RIR 1-2. Nada de pierna: la pierna es el jueves.",
@@ -808,10 +808,10 @@
     },
     "TL": {
       "nombre": "Torso ligero (opcional)",
-      "fase": "Semana de carrera: mié 3-feb, opcional",
+      "fase": "Semana de carrera: mar 2-feb, opcional",
       "duracionMin": 25,
       "calentamiento": "Si vienes de la cinta, 3' de movilidad de hombros con goma (rotaciones y aperturas); si no, 5' de remo o elíptica suave antes. Después, 1-2 series de aproximación del primer ejercicio.",
-      "nota": "Opcional y ligero, a 4 días de la media: no machaques hombros ni espalda. Nada de fallo ni de cargas nuevas; si te apetece más descansar, descansa.",
+      "nota": "Opcional y ligero, a 5 días de la media: no machaques hombros ni espalda. Nada de fallo ni de cargas nuevas; si te apetece más descansar, descansa.",
       "ejercicios": [
         {
           "nombre": "Jalón al pecho",
@@ -892,12 +892,12 @@
     {
       "id": "semana-tipo",
       "titulo": "Tu semana tipo",
-      "texto": "Lunes: rodaje suave en la calle (Z2), 30-60', con strides algunas semanas. Martes: la calidad principal (series, fartlek, umbral o ritmo de media) desde la S1, en pista o llano y sin gimnasio. Miércoles: gimnasio de torso (rutina T, ~45'), con una cinta opcional de 20-30' suaves antes desde la S3 (75' como mucho entre las dos): la cinta es lo prescindible de la semana; si vas cansado o el trabajo se alarga, quítala sin remordimientos (en la S1 y la S2, solo torso). Jueves: gimnasio de pierna, primero la cinta al 1 % (como mucho 45') y después la fuerza de pierna (como mucho 40'). Viernes: descanso. Sábado: tirada larga por la mañana. Domingo: descanso. Las semanas con test en domingo (S8 y S12) o con la carrera, el sábado se descansa (o activación opcional de 15-20'): nunca dos días fuertes seguidos en el fin de semana. El test 5K de la S6 es el martes 24-nov en pista, en lugar de la calidad, y esa semana sí hay tirada. Si el sábado lleva bloques a ritmo, la cinta del jueves es fácil; si el jueves lleva ritmo, la tirada es fácil."
+      "texto": "Alternas correr y gimnasio (desde la S2; la S1 sigue con calidad el martes y torso el miércoles). Lunes: rodaje suave en la calle (Z2), 30-60', con strides algunas semanas; en la base y la específica, algún lunes lleva la calidad secundaria (subumbral, tempo moderado o ritmo de media corto), siempre a 48 h o más de la tirada del sábado y nunca después de un test en domingo. Martes: gimnasio de torso (rutina T, ~45'), con una cinta opcional de 20-30' suaves antes desde la S3 (75' como mucho entre las dos): la cinta es lo prescindible de la semana; si vas cansado o el trabajo se alarga, quítala sin remordimientos (en la S2, solo torso). Miércoles: la calidad principal (series, fartlek, umbral o ritmo de media), en pista o llano y sin gimnasio. Jueves: gimnasio de pierna, primero la cinta al 1 %, siempre suave porque viene después de la calidad (como mucho 45', con strides o cuestas cortas de 10\"), y después la fuerza de pierna (como mucho 40'). Viernes: descanso. Sábado: tirada larga por la mañana. Domingo: descanso. Las semanas con test en domingo (S8 y S12) o con la carrera, el miércoles lleva una calidad moderada y el sábado se descansa (o activación opcional de 15-20'): nunca dos días fuertes seguidos en el fin de semana. El test 5K de la S6 es el miércoles 25-nov en pista, en lugar de la calidad, y esa semana sí hay tirada. Un lunes con calidad y el miércoles de calidad quedan separados por el martes de torso, que no toca las piernas."
     },
     {
       "id": "regla-de-oro",
       "titulo": "Regla de oro: entrena al nivel demostrado",
-      "texto": "Entrenas con los ritmos que confirmó tu último test, nunca con los del objetivo. Hasta el test 5K del 24-nov, columna VDOT ~35,5; del 25-nov al 27-dic, VDOT ~37 (si el 5K sale por encima de 26:10, sigue en la anterior); desde el 28-dic, vía B si el 10K de la S8 la confirmó (52:40 o menos, ya con el ajuste por volumen); si no, sigues con los ritmos de la base hasta el test de la S12. La vía A solo si la confirman el 10K de la S8 (para la S11-S12) o el test de la S12 (para la S13-S16)."
+      "texto": "Entrenas con los ritmos que confirmó tu último test, nunca con los del objetivo. Hasta el test 5K del 25-nov, columna VDOT ~35,5; del 26-nov al 27-dic, VDOT ~37 (si el 5K sale por encima de 26:10, sigue en la anterior); desde el 28-dic, vía B si el 10K de la S8 la confirmó (52:40 o menos, ya con el ajuste por volumen); si no, sigues con los ritmos de la base hasta el test de la S12. La vía A solo si la confirman el 10K de la S8 (para la S11-S12) o el test de la S12 (para la S13-S16)."
     },
     {
       "id": "regla-tirada",
@@ -907,7 +907,7 @@
     {
       "id": "sesion-perdida",
       "titulo": "Sesión perdida",
-      "texto": "No la recuperes metiéndola de cualquier manera. Si hay que elegir, este es el orden de importancia: 1) tirada larga, 2) calidad del martes, 3) pierna del jueves, 4) cinta del jueves, 5) rodaje del lunes, 6) torso del miércoles, 7) cinta del miércoles (la prescindible). Calidad del martes perdida: hazla en la cinta del jueves, en lugar de lo que tocara, solo si el sábado no lleva bloques; si no, se pierde. Larga perdida: el domingo (ese fin de semana el sábado descansas) o el lunes en lugar del rodaje, un 20 % más corta y sin bloques. Gimnasio perdido: no lo metas otro día; la semana siguiente sigues donde ibas. Nunca muevas la pierna al día antes de una calidad o de la tirada."
+      "texto": "No la recuperes metiéndola de cualquier manera. Si hay que elegir, este es el orden de importancia: 1) tirada larga, 2) calidad del miércoles, 3) pierna del jueves, 4) calidad secundaria del lunes, si la hay, 5) cinta del jueves, 6) rodaje del lunes, 7) torso del martes, 8) cinta del martes (la prescindible). Calidad del miércoles perdida: hazla el jueves en lugar de la cinta suave, con la versión de 20' de la pierna después, solo si el sábado no lleva bloques; si no, se pierde. Calidad del lunes perdida: se pierde, no la muevas. Larga perdida: el domingo (ese fin de semana el sábado descansas) o el lunes en lugar del rodaje, un 20 % más corta y sin bloques. Gimnasio perdido: no lo metas otro día; la semana siguiente sigues donde ibas. Nunca muevas la pierna al día antes de una calidad o de la tirada."
     },
     {
       "id": "dias-sin-correr",
@@ -942,12 +942,12 @@
     {
       "id": "trabajo-largo",
       "titulo": "Si el trabajo se alarga",
-      "texto": "Lo primero que se quita es la cinta del miércoles: para eso es lo prescindible; si hace falta, también el torso. Si el martes no puedes empezar antes de las 20:00, haz un rodaje corto (o descansa) y pasa la calidad a la cinta del jueves solo si el sábado no lleva bloques; si no, se pierde. Versión mínima de una calidad (unos 45'): 10' de calentamiento + el 60-70 % de las series + 5' suaves. Jueves justo de tiempo: cinta corta y versión de 20' de la fuerza (3 ejercicios principales × 2 series). El sábado por la mañana es el salvavidas de la semana: la tirada se hace aunque la semana se haya torcido, y el domingo se descansa."
+      "texto": "Lo primero que se quita es la cinta del martes: para eso es lo prescindible; si hace falta, también el torso. Si el lunes lleva calidad y no llegas, hazlo rodaje suave o descansa. Si el miércoles no puedes empezar antes de las 20:00, haz un rodaje corto (o descansa) y pasa la calidad al jueves, en lugar de la cinta suave y con la versión de 20' de la pierna, solo si el sábado no lleva bloques; si no, se pierde. Versión mínima de una calidad (unos 45'): 10' de calentamiento + el 60-70 % de las series + 5' suaves. Jueves justo de tiempo: cinta corta y versión de 20' de la fuerza (3 ejercicios principales × 2 series). El sábado por la mañana es el salvavidas de la semana: la tirada se hace aunque la semana se haya torcido, y el domingo se descansa."
     },
     {
       "id": "test-valido",
       "titulo": "Cuándo cuenta un test",
-      "texto": "Un test sirve para cambiar de vía solo si es en llano o pista, con menos de 15 °C, sin viento fuerte, con dos días suaves antes y sin estar enfermo. Si no, se repite o se mantienen los ritmos. Un test en domingo ocupa el sitio de la tirada larga de esa semana: la cinta del jueves es suave y el sábado se descansa (o activación opcional de 15-20'). El 5K de la S6 es el martes 24-nov en pista, en lugar de la calidad: domingo de descanso y lunes suave antes. Después, la siguiente calidad no llega antes de un día por cada 3 km de test (tras el 5K del martes, el jueves en la cinta; tras un 9-10K, como pronto el miércoles: en este plan, el jueves en la cinta, con el lunes y el martes suaves)."
+      "texto": "Un test sirve para cambiar de vía solo si es en llano o pista, con menos de 15 °C, sin viento fuerte, con dos días suaves antes y sin estar enfermo. Si no, se repite o se mantienen los ritmos. Un test en domingo ocupa el sitio de la tirada larga de esa semana: la calidad del miércoles es moderada, la cinta del jueves es suave y el sábado se descansa (o activación opcional de 15-20'). El 5K de la S6 es el miércoles 25-nov en pista, en lugar de la calidad: lunes suave y martes de torso antes. Después, la siguiente calidad no llega antes de un día por cada 3 km de test (tras el 5K del miércoles, esa semana ya no hay más; tras un 9-10K en domingo, lunes suave, martes de torso y la calidad el miércoles)."
     },
     {
       "id": "ritmo-carrera",
@@ -962,7 +962,7 @@
     {
       "id": "fuerza-y-carrera",
       "titulo": "Gimnasio y carrera",
-      "texto": "Dos días de gimnasio, como llevas meses haciendo: torso el miércoles y pierna el jueves. El miércoles, la cinta opcional va antes del torso (75' como mucho entre las dos); el jueves, primero la cinta y después la pierna, 85' como mucho entre las dos. Correr antes y las pesas después perjudica menos que al revés, y ningún otro día se juntan carrera y pesas. Con más de 10 años de pesas, una sesión pesada de pierna a la semana basta para mantener y mejorar tu fuerza, y sin fase de adaptación: no has dejado de ir. En el torso, nada de fallo en dorsales y hombros las semanas de test. Nunca fuerza pesada de piernas el día antes de una calidad, un test o una larga con bloques (por eso el viernes es descanso); si el sábado lleva bloques o el domingo hay test, quita 1 serie de sentadilla y de peso muerto. Sube carga solo si todas las series salen con RIR 2 o más, y nunca en la semana de más km. Dos semanas seguidas sin pesas ya empiezan a costar lo ganado."
+      "texto": "Dos días de gimnasio, alternando con la carrera: torso el martes y pierna el jueves. El martes, la cinta opcional va antes del torso (75' como mucho entre las dos); el jueves, primero la cinta suave y después la pierna, 85' como mucho entre las dos. Correr antes y las pesas después perjudica menos que al revés, y ningún otro día se juntan carrera y pesas. Con más de 10 años de pesas, una sesión pesada de pierna a la semana basta para mantener y mejorar tu fuerza, y sin fase de adaptación: no has dejado de ir. En el torso, nada de fallo en dorsales y hombros las semanas de test. Nunca fuerza pesada de piernas el día antes de una calidad, un test o una larga con bloques (por eso el viernes es descanso); si el sábado lleva bloques o el domingo hay test, quita 1 serie de sentadilla y de peso muerto. Sube carga solo si todas las series salen con RIR 2 o más, y nunca en la semana de más km. Dos semanas seguidas sin pesas ya empiezan a costar lo ganado."
     },
     {
       "id": "noche",
@@ -1193,7 +1193,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave con strides y pierna pesada: dos días después de las series y dos antes de la tirada. Llevas meses entrenando pierna, así que no hace falta fase de adaptación. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave con strides y pierna pesada: dos días después de las series y dos antes de la tirada. Llevas meses entrenando pierna, así que no hace falta fase de adaptación. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -1276,7 +1276,7 @@
       "titulo": "Fartlek",
       "kmPlan": 21.5,
       "descarga": false,
-      "nota": "Igual que la semana pasada, con fartlek el martes (6×2' a 6:00/km) en lugar de los 400, la tirada a 8,8 km y el lunes algo más corto para no subir los km. El test de 5K será el martes 24-nov en pista y en solitario: no hace falta inscribirse en nada.",
+      "nota": "Estrenas la semana tipo nueva, alternando correr y gimnasio: lunes suave, martes de torso, miércoles de calidad, jueves de cinta suave y pierna. La calidad, un fartlek (6×2' a 6:00/km) el miércoles 28 en lugar de los 400; la tirada, a 8,8 km, y el lunes algo más corto para no subir los km. El test de 5K será el miércoles 25-nov en pista y en solitario: no hace falta inscribirse en nada.",
       "dias": [
         {
           "fecha": "2026-10-26",
@@ -1300,14 +1300,42 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-10-27",
+          "tipo": "fuerza",
+          "titulo": "Gimnasio: torso",
+          "clave": false,
+          "kmPlan": 0.0,
+          "minPlan": 0,
+          "objetivo": "Torso (rutina T, ~45') · sin correr",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "5' de remo o elíptica suave y movilidad de hombros con goma."
+            },
+            {
+              "parte": "principal",
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
+            }
+          ],
+          "porque": "Tu día de torso, ahora el martes: mantiene la fuerza de tren superior sin tocar las piernas, entre el rodaje suave del lunes y la calidad del miércoles.",
+          "alternativa": "Si no puedes ir al gimnasio: en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15). Si vas cansado, quítalo sin remordimientos.",
+          "fuerza": "T",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-10-28",
           "tipo": "fartlek",
           "titulo": "Fartlek a ritmo maratón",
           "clave": true,
@@ -1332,34 +1360,6 @@
           "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 4×2' a 6:00/km + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-10-28",
-          "tipo": "fuerza",
-          "titulo": "Gimnasio: torso",
-          "clave": false,
-          "kmPlan": 0.0,
-          "minPlan": 0,
-          "objetivo": "Torso (rutina T, ~45') · sin correr",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "5' de remo o elíptica suave y movilidad de hombros con goma."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
-            }
-          ],
-          "porque": "Tu día de torso de siempre: mantiene la fuerza de tren superior sin tocar las piernas, que el martes hicieron calidad y el jueves tienen pierna.",
-          "alternativa": "Si no puedes ir al gimnasio: en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15). Si vas cansado, quítalo sin remordimientos.",
-          "fuerza": "T",
-          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -1392,7 +1392,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave con strides y pierna pesada. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave con strides y pierna pesada al día siguiente del fartlek: la cinta del jueves siempre es suave. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -1475,7 +1475,7 @@
       "titulo": "Primer umbral y cinco días",
       "kmPlan": 26.5,
       "descarga": false,
-      "nota": "Pasas a 5 días: el miércoles, antes del torso, entra una cinta opcional de 20-30' suaves, lo prescindible de la semana (si vas cansado o el trabajo se alarga, se quita). El martes, primer umbral (3×6' a 5:41-5:46). Las cuestas cortas pasan a la cinta del jueves (6×10\" al 6-8 %), antes de la pierna. El lunes, algo más corto para no subir los km.",
+      "nota": "Pasas a 5 días: el martes, antes del torso, entra una cinta opcional de 20-30' suaves, lo prescindible de la semana (si vas cansado o el trabajo se alarga, se quita). El miércoles, primer umbral (3×6' a 5:41-5:46). Las cuestas cortas van en la cinta del jueves (6×10\" al 6-8 %), antes de la pierna. El lunes, algo más corto para no subir los km.",
       "dias": [
         {
           "fecha": "2026-11-02",
@@ -1499,42 +1499,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-11-03",
-          "tipo": "umbral",
-          "titulo": "Primer umbral 3×6'",
-          "clave": true,
-          "kmPlan": 6.1,
-          "minPlan": 40,
-          "objetivo": "3×6' a 5:41-5:46/km · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×6' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Primer umbral: el pilar de la media. Empiezas algo más lento que tu umbral real (5:36) para entrar sin castigo.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-11-04",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -1559,10 +1531,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Primer miércoles con carrera: una cinta corta, muy suave y opcional antes de tu torso. Es lo prescindible de la semana: si un miércoles no puedes, no pasa nada.",
+          "porque": "Primer martes con carrera: una cinta corta, muy suave y opcional antes de tu torso. Es lo prescindible de la semana: si un martes no puedes, no pasa nada.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-11-04",
+          "tipo": "umbral",
+          "titulo": "Primer umbral 3×6'",
+          "clave": true,
+          "kmPlan": 6.1,
+          "minPlan": 40,
+          "objetivo": "3×6' a 5:41-5:46/km · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "3×6' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Primer umbral: el pilar de la media. Empiezas algo más lento que tu umbral real (5:36) para entrar sin castigo.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -1595,7 +1595,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Las cuestas cortas de 10\" dan fuerza específica y técnica sin cansar, y en la cinta no hace falta buscar rampa. Van antes de la pierna y a dos días del umbral. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Las cuestas cortas de 10\" dan fuerza específica y técnica sin cansar, y en la cinta no hace falta buscar rampa. Son tan cortas que no cuentan como calidad: caben al día siguiente del umbral, antes de la pierna. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle con las cuestas en una rampa corta cualquiera del 6-10 % (bajas andando) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 4 cuestas y la versión de 20' de la fuerza.",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -1678,7 +1678,7 @@
       "titulo": "Descarga suave",
       "kmPlan": 25.0,
       "descarga": true,
-      "nota": "Descarga suave: bajan un poco los km y la pierna va al 50-60 % del volumen. El lunes, segundo control de FC, descansado y comparable con el de la S1; el martes, umbral suave y corto (3×5' a 5:41-5:46) para no perder el estímulo. Miércoles de cinta opcional y torso, y jueves de cinta corta y pierna de descarga.",
+      "nota": "Descarga suave: bajan un poco los km y la pierna va al 50-60 % del volumen. El lunes, segundo control de FC, descansado y comparable con el de la S1; el martes, cinta opcional y torso; el miércoles, umbral suave y corto (3×5' a 5:41-5:46) para no perder el estímulo, y el jueves, cinta corta y pierna de descarga.",
       "dias": [
         {
           "fecha": "2026-11-09",
@@ -1705,39 +1705,11 @@
           "porque": "Mide tu eficiencia aeróbica: a la misma FC, cada control debería salir más rápido. En enero, la vía B pide unos 6:00/km o mejor y la A, 5:45-5:50.",
           "alternativa": "Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-11-10",
-          "tipo": "umbral",
-          "titulo": "Umbral suave 3×5'",
-          "clave": true,
-          "kmPlan": 5.6,
-          "minPlan": 37,
-          "objetivo": "3×5' a 5:41-5:46/km · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×5' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Calidad corta en la semana de descarga: mantienes el estímulo del umbral sin acumular fatiga.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×5' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-11-11",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -1762,10 +1734,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Semana de descarga",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-11-11",
+          "tipo": "umbral",
+          "titulo": "Umbral suave 3×5'",
+          "clave": true,
+          "kmPlan": 5.6,
+          "minPlan": 37,
+          "objetivo": "3×5' a 5:41-5:46/km · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "3×5' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Calidad corta en la semana de descarga: mantienes el estímulo del umbral sin acumular fatiga.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×5' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -1794,10 +1794,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave y pierna en versión de descarga. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave y pierna en versión de descarga. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2d",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Semana de descarga",
           "geles": false
         },
         {
@@ -1877,7 +1877,7 @@
       "titulo": "Umbral 4×6' y tirada en Granada",
       "kmPlan": 30.5,
       "descarga": false,
-      "nota": "Umbral más largo el martes (4×6', sin bajar de 5:41): 24' frente a los 18' de la S3. El jueves, cinta suave con strides y fuerza máxima. El viernes y el sábado estás en Granada: el sábado 21, tirada suave de 10,5 km por FC; si allí no puedes, hazla el domingo 22 en casa (excepción a tu domingo libre). El test de 5K pasa al martes 24, en pista.",
+      "nota": "Umbral más largo el miércoles (4×6', sin bajar de 5:41): 24' frente a los 18' de la S3. El jueves, cinta suave con strides y fuerza máxima. El viernes y el sábado estás en Granada: el sábado 21, tirada suave de 10,5 km por FC; si allí no puedes, hazla el domingo 22 en casa (excepción a tu domingo libre). El test de 5K es el miércoles 25, en pista.",
       "dias": [
         {
           "fecha": "2026-11-16",
@@ -1901,42 +1901,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-11-17",
-          "tipo": "umbral",
-          "titulo": "Umbral 4×6'",
-          "clave": true,
-          "kmPlan": 8.0,
-          "minPlan": 52,
-          "objetivo": "4×6' a 5:41-5:46/km · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "4×6' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
-            }
-          ],
-          "porque": "El umbral es el pilar de la media. Subes de 3×6' (S3) a 4×6' al mismo ritmo, algo más lento que tu umbral real (5:36): más tiempo a umbral sin castigo, a una semana del test.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-11-18",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -1961,10 +1933,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-11-18",
+          "tipo": "umbral",
+          "titulo": "Umbral 4×6'",
+          "clave": true,
+          "kmPlan": 8.0,
+          "minPlan": 52,
+          "objetivo": "4×6' a 5:41-5:46/km · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "4×6' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "El umbral es el pilar de la media. Subes de 3×6' (S3) a 4×6' al mismo ritmo, algo más lento que tu umbral real (5:36): más tiempo a umbral sin castigo, a una semana del test.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -1997,7 +1997,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave con strides y fuerza máxima: el sábado la tirada es suave y el test llega el martes 24, con margen de sobra. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave con strides y fuerza máxima: el sábado la tirada es suave y el test llega el miércoles 25, con margen de sobra. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -2045,7 +2045,7 @@
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "Sigue la cadena de tiradas (+10 % sobre los 9,6 km de la S3) mientras estás fuera. Suave de verdad: el martes hay test de 5K.",
+          "porque": "Sigue la cadena de tiradas (+10 % sobre los 9,6 km de la S3) mientras estás fuera. Suave de verdad: el miércoles hay test de 5K.",
           "alternativa": "Si en Granada no puedes, hazla el domingo 22 en casa (excepción a tu domingo libre) y hoy descansa: sigue siendo un solo día de fin de semana. Busca un recorrido llano y manda la FC aunque el ritmo salga lento. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
           "fuerza": null,
           "nutricion": "Día de tirada larga",
@@ -2065,7 +2065,7 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Domingo de descanso: el martes hay test de 5K y llegas con dos días suaves (hoy y el lunes).",
+          "porque": "Domingo de descanso: el miércoles hay test de 5K y antes van un lunes suave y un martes de torso.",
           "alternativa": null,
           "fuerza": null,
           "nutricion": "Día de descanso",
@@ -2078,18 +2078,18 @@
       "inicio": "2026-11-23",
       "fase": "base",
       "titulo": "Test 5K y arranca la base",
-      "kmPlan": 38.5,
+      "kmPlan": 38.0,
       "descarga": false,
-      "nota": "Test de 5K el martes 24, a tope en pista y en solitario, en lugar de la calidad: el lunes, rodaje corto con strides. Desde el miércoles 25, ritmos nuevos (VDOT ~37); si el 5K sale por encima de 26:10, quédate con la columna anterior. Miércoles corto, el umbral pasa a la cinta del jueves (4×6') y 11,5 km fáciles el sábado.",
+      "nota": "Test de 5K el miércoles 25, a tope en pista y en solitario, en lugar de la calidad: el lunes, rodaje suave, y el martes, torso sin fallo con una cinta corta y opcional. Desde el jueves 26, ritmos nuevos (VDOT ~37); si el 5K sale por encima de 26:10, quédate con la columna anterior. Tras el test no hay más calidad esta semana: jueves de cinta suave y pierna, y 11,5 km fáciles el sábado.",
       "dias": [
         {
           "fecha": "2026-11-23",
           "tipo": "facil",
-          "titulo": "Rodaje suave + strides (víspera del test)",
+          "titulo": "Rodaje suave",
           "clave": false,
-          "kmPlan": 5.0,
-          "minPlan": 36,
-          "objetivo": "30' a 6:45-7:20/km · FC 135-150 · 4 strides",
+          "kmPlan": 5.7,
+          "minPlan": 40,
+          "objetivo": "40' a 6:45-7:20/km · FC 135-150",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2097,25 +2097,53 @@
             },
             {
               "parte": "principal",
-              "texto": "30' a 6:45-7:20/km con FC 135-150 (unos 4,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
-            },
-            {
-              "parte": "principal",
-              "texto": "Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno."
+              "texto": "40' a 6:45-7:20/km con FC 135-150 (unos 5,7 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Víspera del test: rodaje corto y suave con unos strides para llegar con las piernas despiertas y frescas. Nada más.",
-          "alternativa": "Si llueve o sopla fuerte: cinta al 1 % de inclinación con la misma FC. Si vas justo de tiempo, 10' suaves y los strides valen.",
+          "porque": "Rodaje suave dos días antes del test: suma fondo sin cansar. Nada de strides ni cambios: llegas al miércoles con las piernas frescas.",
+          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-11-24",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
+          "clave": false,
+          "kmPlan": 4.3,
+          "minPlan": 30,
+          "objetivo": "30' en cinta a 6:45-7:20/km (opcional, 20-30') · FC 135-150 · torso T",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "20-30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150 (con 30', unos 4,3 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
+            },
+            {
+              "parte": "principal",
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Víspera del test: todo con RIR 3, nada de fallo en dorsales ni hombros."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
+            }
+          ],
+          "porque": "Víspera del test: cinta suave y opcional y tu torso, que no toca las piernas. Si vas justo o con nervios, quita la cinta.",
+          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+          "fuerza": "T",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-11-25",
           "tipo": "test",
           "titulo": "Test 5K en pista (en solitario)",
           "clave": true,
@@ -2133,85 +2161,49 @@
             },
             {
               "parte": "principal",
-              "texto": "Cuenta para recalibrar si hay menos de 15 °C, sin viento fuerte y llegas con dos días suaves (domingo de descanso y lunes suave). Solo cuesta más que en carrera: no te cebes en el primer km y aprieta en el último."
+              "texto": "Cuenta para recalibrar si hay menos de 15 °C, sin viento fuerte y llegas con dos días suaves (lunes de rodaje suave y martes de torso). Solo cuesta más que en carrera: no te cebes en el primer km y aprieta en el último."
             },
             {
               "parte": "vuelta",
               "texto": "17' de trote muy suave (unos 2,4 km): forman parte del entrenamiento del día."
             }
           ],
-          "porque": "Mide tu forma real tras la reconstrucción: con este tiempo se fijan los ritmos de S6-S10 y se confirma tu FC de umbral. Hoy sustituye a la calidad del martes.",
-          "alternativa": "Si hoy hay viento fuerte o lluvia, o no puedes ir a la pista: 30' suaves y el test pasa al miércoles 25, con el mismo calentamiento; entonces la cinta del jueves 26 es fácil, sin umbral. Sin pista: TT30 en llano (30' a tope; B ≥ 5,70 km, A ≥ 5,85 km).",
+          "porque": "Mide tu forma real tras la reconstrucción: con este tiempo se fijan los ritmos de S6-S10 y se confirma tu FC de umbral. Hoy sustituye a la calidad del miércoles.",
+          "alternativa": "Si hoy hay viento fuerte o lluvia, o no puedes ir a la pista: 30' suaves y el test pasa al jueves 26, con el mismo calentamiento y sin pierna ese día (esa semana se pierde). Sin pista: TT30 en llano (30' a tope; B ≥ 5,70 km, A ≥ 5,85 km).",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
-          "fecha": "2026-11-25",
-          "tipo": "facil",
-          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
-          "clave": false,
-          "kmPlan": 4.4,
-          "minPlan": 30,
-          "objetivo": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
-            },
-            {
-              "parte": "principal",
-              "texto": "20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de test: nada de fallo en dorsales ni hombros."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
-            }
-          ],
-          "porque": "El día después del test: cinta muy suave y opcional, y tu torso. Tras un 5K, la calidad vuelve al segundo día: el jueves, en la cinta. Si vas cargado, quita la cinta.",
-          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
-          "fuerza": "T",
-          "nutricion": "Víspera de series o tempo",
-          "geles": false
-        },
-        {
           "fecha": "2026-11-26",
-          "tipo": "umbral",
-          "titulo": "Gimnasio: umbral 4×6' en cinta + fuerza",
-          "clave": true,
-          "kmPlan": 7.0,
-          "minPlan": 42,
-          "objetivo": "4×6' en cinta a 5:25/km · FC 176-181 · rec 1' · fuerza A2",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta suave y fuerza",
+          "clave": false,
+          "kmPlan": 5.9,
+          "minPlan": 40,
+          "objetivo": "40' en cinta a 6:30-7:10/km · FC 135-150 · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles en la cinta al 1 % a 6:30-7:10/km, subiendo la velocidad poco a poco."
+              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
             },
             {
               "parte": "principal",
-              "texto": "4×6' a 5:25/km (11,1 km/h), con FC 176-181 y 1' andando o trotando muy suave entre series. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' muy suaves en la cinta."
+              "texto": "40' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 5,9 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
             },
             {
               "parte": "principal",
-              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo."
+              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Si vas muy cargado del test, deja todo con RIR 3."
             },
             {
               "parte": "vuelta",
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "El umbral de la semana pasa a la cinta: dos días después del test, ya con los ritmos nuevos. Si el 5K salió por encima de 26:10, hazlo a 5:41-5:46/km. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma sesión en llano en la calle y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 3×6' + 5' en la cinta y la versión de 20' de la fuerza.",
+          "porque": "El día después del test: cinta suave, ya con los ritmos nuevos, y pierna pesada. Tras un 5K, la calidad no vuelve hasta el segundo día: esta semana ya no hay más. Si el 5K salió por encima de 26:10, la cinta a 6:45-7:20/km. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
-          "nutricion": "Día de series después del trabajo",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -2291,7 +2283,7 @@
       "titulo": "Final a ritmo maratón",
       "kmPlan": 36.0,
       "descarga": false,
-      "nota": "La tirada termina con 2 km a ritmo maratón: la primera vez que corres rápido con las piernas cansadas. Por eso la cinta del jueves es solo fácil con strides y en el gimnasio quitas una serie de sentadilla y de peso muerto. Inscríbete al 10K de La Manga (plazo hasta el 10-dic).",
+      "nota": "Umbral 4×7' el miércoles y la tirada termina con 2 km a ritmo maratón: la primera vez que corres rápido con las piernas cansadas. Por eso en el gimnasio del jueves quitas una serie de sentadilla y de peso muerto. Inscríbete al 10K de La Manga (plazo hasta el 10-dic).",
       "dias": [
         {
           "fecha": "2026-11-30",
@@ -2315,42 +2307,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-12-01",
-          "tipo": "umbral",
-          "titulo": "Umbral 4×7'",
-          "clave": true,
-          "kmPlan": 9.1,
-          "minPlan": 56,
-          "objetivo": "4×7' a 5:25/km · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "4×7' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×7' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-12-02",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -2375,10 +2339,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-02",
+          "tipo": "umbral",
+          "titulo": "Umbral 4×7'",
+          "clave": true,
+          "kmPlan": 9.1,
+          "minPlan": 56,
+          "objetivo": "4×7' a 5:25/km · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "4×7' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×7' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -2411,7 +2403,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta fácil porque el sábado la tirada lleva final a ritmo: nunca dos sesiones duras seguidas. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta fácil al día siguiente del umbral y con el sábado de final a ritmo: nunca dos sesiones duras seguidas. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -2498,7 +2490,7 @@
       "titulo": "Descarga y 10K en La Manga",
       "kmPlan": 34.0,
       "descarga": true,
-      "nota": "Descarga con test: martes corto (el 8 es festivo, aprovecha la luz), jueves de cinta suave y fuerza de descarga, y el domingo 10K del Mar Menor Running Challenge a las 12:00. El sábado, descanso (o 15-20' de activación si te apetece).",
+      "nota": "Descarga con test: el martes 8 es festivo (si el gimnasio cierra, torso en casa o se pierde), umbral corto el miércoles, jueves de cinta suave y fuerza de descarga, y el domingo 10K del Mar Menor Running Challenge a las 12:00. El sábado, descanso (o 15-20' de activación si te apetece).",
       "dias": [
         {
           "fecha": "2026-12-07",
@@ -2522,42 +2514,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2026-12-08",
-          "tipo": "umbral",
-          "titulo": "Umbral corto 3×6'",
-          "clave": true,
-          "kmPlan": 7.1,
-          "minPlan": 45,
-          "objetivo": "3×6' a 5:25/km · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×6' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Calidad corta para no perder el estímulo en la semana de descarga y llegar fresco al 10K.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2026-12-09",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -2582,10 +2546,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Festivo: si el gimnasio abre, cinta opcional y torso; si cierra, 20-30' suaves en la calle si te apetece y el torso en casa, o se pierde.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Semana de descarga",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-09",
+          "tipo": "umbral",
+          "titulo": "Umbral corto 3×6'",
+          "clave": true,
+          "kmPlan": 7.1,
+          "minPlan": 45,
+          "objetivo": "3×6' a 5:25/km · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "3×6' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Calidad corta para no perder el estímulo en la semana de descarga y llegar fresco al 10K del domingo.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -2618,10 +2610,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave y fuerza de descarga: mantienes el estímulo sin cansarte antes del 10K. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave y fuerza de descarga: mantienes el estímulo sin cansarte antes del 10K. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2d",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Semana de descarga",
           "geles": false
         },
         {
@@ -2703,9 +2695,9 @@
       "inicio": "2026-12-14",
       "fase": "base",
       "titulo": "15 km y primeros geles",
-      "kmPlan": 39.5,
+      "kmPlan": 40.0,
       "descarga": false,
-      "nota": "Primera tirada de 15 km y primeros geles: lleva el mismo que usarás en carrera. Tras un 10K a tope, tres días sin calidad: lunes y martes suaves, cinta opcional y torso el miércoles y umbral en la cinta el jueves. Esta semana no hay control de FC (no cabe con el torso del miércoles): el siguiente, el lunes 28. Si el 10K de La Manga salió claramente mejor o peor de lo previsto, ajusta el ritmo de umbral 5-8 s/km.",
+      "nota": "Primera tirada de 15 km y primeros geles: lleva el mismo que usarás en carrera. Tras un 10K a tope, dos días sin calidad (lunes suave y martes de torso) y umbral 3×10' el miércoles, tres días después del test. Esta semana no hay control de FC (el lunes va justo después del 10K y no sería comparable): el siguiente, el lunes 28. Si el 10K de La Manga salió claramente mejor o peor de lo previsto, ajusta el ritmo de umbral 5-8 s/km.",
       "dias": [
         {
           "fecha": "2026-12-14",
@@ -2729,7 +2721,7 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Lunes después del 10K: rodaje suave para soltar piernas, sin calidad hasta el jueves.",
+          "porque": "Lunes después del 10K: rodaje suave para soltar piernas. Tras un test de 10 km, la calidad no vuelve hasta 3 días después: esta semana, el miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Rodaje suave",
@@ -2737,38 +2729,6 @@
         },
         {
           "fecha": "2026-12-15",
-          "tipo": "facil",
-          "titulo": "Rodaje suave + strides (después del 10K)",
-          "clave": false,
-          "kmPlan": 6.6,
-          "minPlan": 46,
-          "objetivo": "40' a 6:30-7:10/km · FC 135-150 · 4 strides",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco."
-            },
-            {
-              "parte": "principal",
-              "texto": "40' a 6:30-7:10/km con FC 135-150 (unos 5,9 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
-            },
-            {
-              "parte": "principal",
-              "texto": "Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' andando y 5' de movilidad de tobillos y caderas."
-            }
-          ],
-          "porque": "Dos días después del 10K: rodaje suave con strides. Tras un test de 10 km, la calidad no vuelve hasta 3 días después: esta semana, el jueves en la cinta.",
-          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
-          "fuerza": null,
-          "nutricion": "Rodaje suave",
-          "geles": false
-        },
-        {
-          "fecha": "2026-12-16",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -2793,32 +2753,60 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Dos días después del 10K: cinta suave y opcional y tu torso. Las piernas terminan de recuperarse para el umbral del miércoles.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
           "nutricion": "Víspera de series o tempo",
           "geles": false
         },
         {
-          "fecha": "2026-12-17",
+          "fecha": "2026-12-16",
           "tipo": "umbral",
-          "titulo": "Gimnasio: umbral 3×10' en cinta + fuerza",
+          "titulo": "Umbral 3×10'",
           "clave": true,
-          "kmPlan": 7.7,
-          "minPlan": 45,
-          "objetivo": "3×10' en cinta a 5:25/km · FC 176-181 · rec 1' · fuerza A2",
+          "kmPlan": 9.3,
+          "minPlan": 57,
+          "objetivo": "3×10' a 5:25/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles en la cinta al 1 % a 6:30-7:10/km, subiendo la velocidad poco a poco."
+              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "3×10' a 5:25/km (11,1 km/h), con FC 176-181 y 1' andando o trotando muy suave entre series. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "3×10' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
-              "texto": "3' muy suaves en la cinta."
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Primera calidad tras el 10K, tres días después: sube tu umbral con bloques más largos. Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×10' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-17",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta suave + strides y fuerza",
+          "clave": false,
+          "kmPlan": 5.1,
+          "minPlan": 36,
+          "objetivo": "30' en cinta a 6:30-7:10/km · FC 135-150 · 4 strides · fuerza A2",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 4,4 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
+            },
+            {
+              "parte": "principal",
+              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
             },
             {
               "parte": "principal",
@@ -2829,10 +2817,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Primera calidad tras el 10K, en la cinta: sube tu umbral sin viento ni frío. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma sesión en llano en la calle y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 2×10' + 3' en la cinta y la versión de 20' de la fuerza.",
+          "porque": "Cinta suave con strides y pierna pesada al día siguiente del umbral. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
-          "nutricion": "Día de series después del trabajo",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -2904,7 +2892,7 @@
           "porque": "Domingo de descanso: un solo día de fin de semana entrenando y empiezas la semana fresco.",
           "alternativa": null,
           "fuerza": null,
-          "nutricion": "Día de descanso",
+          "nutricion": "Víspera de series o tempo",
           "geles": false
         }
       ]
@@ -2916,42 +2904,70 @@
       "titulo": "Navidad con cabeza",
       "kmPlan": 41.0,
       "descarga": false,
-      "nota": "Navidad: primeras series de VO2máx el martes (solo 4) y tempo moderado en la cinta el jueves (Nochebuena): muchos gimnasios cierran por la tarde, así que si libras, ve por la mañana. El 25, descanso de verdad, y el 26, tirada de 16,6 km. No sumes km de más por tener tiempo.",
+      "nota": "Navidad: tempo moderado el lunes (la calidad secundaria, a 48 h largas de la tirada del sábado), torso el martes y primeras series de VO2máx el miércoles (solo 4). El jueves (Nochebuena), cinta suave y pierna: muchos gimnasios cierran por la tarde, así que si libras, ve por la mañana. El 25, descanso de verdad, y el 26, tirada de 16,6 km. No sumes km de más por tener tiempo.",
       "dias": [
         {
           "fecha": "2026-12-21",
-          "tipo": "facil",
-          "titulo": "Rodaje suave + strides",
-          "clave": false,
-          "kmPlan": 6.6,
-          "minPlan": 46,
-          "objetivo": "40' a 6:30-7:10/km · FC 135-150 · 4 strides",
+          "tipo": "umbral",
+          "titulo": "Tempo moderado de 20' (calidad secundaria)",
+          "clave": true,
+          "kmPlan": 6.3,
+          "minPlan": 40,
+          "objetivo": "20' seguidos a 5:37/km · FC 166-175",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco."
+              "texto": "10' fáciles a 6:30-7:10/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "40' a 6:30-7:10/km con FC 135-150 (unos 5,9 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
-            },
-            {
-              "parte": "principal",
-              "texto": "Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno."
+              "texto": "20' seguidos a 5:37/km, con FC 166-175. En llano. Esfuerzo 6/10: cómodo-duro, podrías hablar con frases cortas. Un escalón por debajo del umbral."
             },
             {
               "parte": "vuelta",
-              "texto": "5' andando y 5' de movilidad de tobillos y caderas."
+              "texto": "5' muy suaves y movilidad."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes. Los strides mantienen la zancada ágil.",
-          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
+          "porque": "Calidad secundaria: 20' seguidos un escalón por debajo del umbral. Llega con más de 48 h tras la tirada del sábado y deja el martes de torso antes de las series del miércoles.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 15' seguidos + 5' suaves.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
           "fecha": "2026-12-22",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
+          "clave": false,
+          "kmPlan": 4.4,
+          "minPlan": 30,
+          "objetivo": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
+            },
+            {
+              "parte": "principal",
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
+            }
+          ],
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
+          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+          "fuerza": "T",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-23",
           "tipo": "series",
           "titulo": "Series VO2máx 4×3'",
           "clave": true,
@@ -2979,57 +2995,25 @@
           "geles": false
         },
         {
-          "fecha": "2026-12-23",
-          "tipo": "facil",
-          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
-          "clave": false,
-          "kmPlan": 4.4,
-          "minPlan": 30,
-          "objetivo": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
-            },
-            {
-              "parte": "principal",
-              "texto": "20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
-            }
-          ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
-          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
-          "fuerza": "T",
-          "nutricion": "Víspera de series o tempo",
-          "geles": false
-        },
-        {
           "fecha": "2026-12-24",
-          "tipo": "umbral",
-          "titulo": "Gimnasio: tempo moderado de 20' en cinta + fuerza",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta suave + strides y fuerza",
           "clave": false,
-          "kmPlan": 5.8,
-          "minPlan": 35,
-          "objetivo": "20' seguidos en cinta a 5:37/km · FC 166-175 · fuerza A2",
+          "kmPlan": 5.9,
+          "minPlan": 41,
+          "objetivo": "35' en cinta a 6:30-7:10/km · FC 135-150 · 4 strides · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles en la cinta al 1 % a 6:30-7:10/km, subiendo la velocidad poco a poco."
+              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
             },
             {
               "parte": "principal",
-              "texto": "20' seguidos a 5:37/km (10,7 km/h), con FC 166-175. Esfuerzo 6/10: cómodo-duro, podrías hablar con frases cortas. Un escalón por debajo del umbral."
+              "texto": "35' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 5,1 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
             },
             {
-              "parte": "vuelta",
-              "texto": "5' muy suaves en la cinta."
+              "parte": "principal",
+              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
             },
             {
               "parte": "principal",
@@ -3040,10 +3024,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Nochebuena: 20' seguidos un escalón por debajo del umbral y la fuerza de la semana; si el gimnasio cierra pronto, ve por la mañana. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma sesión en llano en la calle y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 15' seguidos + 5' en la cinta y la versión de 20' de la fuerza.",
+          "porque": "Nochebuena: cinta suave al día siguiente de las series y la fuerza de la semana; si el gimnasio cierra pronto, ve por la mañana. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
-          "nutricion": "Día de series después del trabajo",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -3125,9 +3109,9 @@
       "inicio": "2026-12-28",
       "fase": "especifica",
       "titulo": "Vía B y primera de 18 km",
-      "kmPlan": 45.0,
+      "kmPlan": 45.5,
       "descarga": false,
-      "nota": "Pasas a la vía B si el 10K de la S8 la confirmó (o a la A); si no, sigues con los ritmos de la base hasta el test de la S12. Control de FC el lunes, alternos el martes, ritmo de media corto en la cinta el jueves (Nochevieja) y la primera tirada de más de 18 km el sábado 2. En Nochevieja, a celebrar con cabeza.",
+      "nota": "Pasas a la vía B si el 10K de la S8 la confirmó (o a la A); si no, sigues con los ritmos de la base hasta el test de la S12. Control de FC el lunes, alternos el miércoles, cinta suave y pierna el jueves (Nochevieja) y la primera tirada de más de 18 km el sábado 2. En Nochevieja, a celebrar con cabeza.",
       "dias": [
         {
           "fecha": "2026-12-28",
@@ -3154,11 +3138,43 @@
           "porque": "Mide tu eficiencia aeróbica: a la misma FC, cada control debería salir más rápido. En enero, la vía B pide unos 6:00/km o mejor y la A, 5:45-5:50.",
           "alternativa": "Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Frío",
           "geles": false
         },
         {
           "fecha": "2026-12-29",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
+          "clave": false,
+          "kmPlan": 4.5,
+          "minPlan": 30,
+          "objetivo": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
+            },
+            {
+              "parte": "principal",
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
+            }
+          ],
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
+          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+          "fuerza": "T",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-30",
           "tipo": "ritmo",
           "titulo": "Alternos 3+3 km",
           "clave": true,
@@ -3190,57 +3206,25 @@
           "geles": false
         },
         {
-          "fecha": "2026-12-30",
-          "tipo": "facil",
-          "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
-          "clave": false,
-          "kmPlan": 4.5,
-          "minPlan": 30,
-          "objetivo": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
-            },
-            {
-              "parte": "principal",
-              "texto": "20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
-            }
-          ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
-          "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
-          "fuerza": "T",
-          "nutricion": "Frío",
-          "geles": false
-        },
-        {
           "fecha": "2026-12-31",
-          "tipo": "ritmo",
-          "titulo": "Gimnasio: ritmo de media 3×1 km en cinta + fuerza",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta suave + strides y fuerza",
           "clave": false,
-          "kmPlan": 5.5,
-          "minPlan": 33,
-          "objetivo": "3×1 km en cinta a B 5:26 · A 5:18 solo si el 10K de la S8 la confirmó · FC 168-176 · rec 1' · fuerza A2",
+          "kmPlan": 6.0,
+          "minPlan": 41,
+          "objetivo": "35' en cinta a 6:20-6:55/km · FC 135-150 · 4 strides · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles en la cinta al 1 % a 6:20-6:55/km, subiendo la velocidad poco a poco."
+              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
             },
             {
               "parte": "principal",
-              "texto": "3×1 km a ritmo objetivo, con FC 168-176 y 1' andando o trotando muy suave entre bloques. B: 5:26/km (11,0 km/h). Vía A: 5:18 (11,3 km/h), solo si el 10K de la S8 la confirmó. Si el 10K de la S8 no confirmó la vía B, a tu ritmo de media actual (5:37, 10,7 km/h)."
+              "texto": "35' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 5,3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
             },
             {
-              "parte": "vuelta",
-              "texto": "5' muy suaves en la cinta."
+              "parte": "principal",
+              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
             },
             {
               "parte": "principal",
@@ -3251,10 +3235,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Nochevieja: 3 km cortos a ritmo de media para que las piernas aprendan el ritmo nuevo. Si el gimnasio cierra pronto, ve por la mañana o haz la fuerza de 20'. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma sesión en llano en la calle y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 2×1 km + 5' en la cinta y la versión de 20' de la fuerza.",
+          "porque": "Nochevieja: cinta suave al día siguiente de los alternos y la fuerza de la semana. Si el gimnasio cierra pronto, ve por la mañana o haz la fuerza de 20'. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
-          "nutricion": "Día de series después del trabajo",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -3338,7 +3322,7 @@
       "titulo": "Descarga y 9K de control",
       "kmPlan": 35.5,
       "descarga": true,
-      "nota": "Descarga y control clave. Reyes (miércoles 6) es para un rodaje tranquilo con luz, mejor por la mañana. El sábado, descanso; el domingo, 9K del Paraíso Salado (fecha estimada: confírmala; si no, 10K en pista). Este test decide tu vía hasta la carrera.",
+      "nota": "Descarga y control clave. El umbral corto cae en Reyes (miércoles 6): con luz y mejor por la mañana. El sábado, descanso; el domingo, 9K del Paraíso Salado (fecha estimada: confírmala; si no, 10K en pista). Este test decide tu vía hasta la carrera.",
       "dias": [
         {
           "fecha": "2027-01-04",
@@ -3362,42 +3346,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2027-01-05",
-          "tipo": "umbral",
-          "titulo": "Umbral corto 3×8'",
-          "clave": true,
-          "kmPlan": 8.4,
-          "minPlan": 51,
-          "objetivo": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó) · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "12' fáciles a 6:20-6:55/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el 10K de la S8 no confirmó la vía B, a 5:25/km."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Calidad corta de descarga: mantiene el umbral mientras recuperas para el test del domingo.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×8' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2027-01-06",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -3422,10 +3378,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Día de Reyes, semana de descarga y de test: ve al gimnasio por la mañana si abre (muchos cierran o abren menos horas). Si está cerrado, 30' suaves en la calle con luz y el torso, en casa o se pierde.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Rodaje suave en ayunas (opcional)",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2027-01-06",
+          "tipo": "umbral",
+          "titulo": "Umbral corto 3×8'",
+          "clave": true,
+          "kmPlan": 8.4,
+          "minPlan": 51,
+          "objetivo": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó) · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "12' fáciles a 6:20-6:55/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el 10K de la S8 no confirmó la vía B, a 5:25/km."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Día de Reyes: calidad corta de descarga, con luz y mejor por la mañana. Mantiene el umbral mientras recuperas para el test del domingo.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×8' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -3458,7 +3442,7 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave y potencia en versión de descarga: nada pesado a fallo, el domingo hay test. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave y potencia en versión de descarga: nada pesado a fallo, el domingo hay test. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A3d",
           "nutricion": "Día de fuerza",
@@ -3541,7 +3525,7 @@
       "titulo": "La tirada más larga: 20 km",
       "kmPlan": 45.5,
       "descarga": false,
-      "nota": "Semana grande: tras el 9K, lunes y martes suaves y bloques a ritmo objetivo en la cinta el jueves (2×2,5 km); el sábado, la tirada más larga del plan (20 km), fácil entera y con los geles exactamente como en carrera.",
+      "nota": "Semana grande: tras el 9K, lunes suave y martes de torso, y bloques a ritmo objetivo el miércoles (2×2,5 km), tres días después del test; el sábado, la tirada más larga del plan (20 km), fácil entera y con los geles exactamente como en carrera.",
       "dias": [
         {
           "fecha": "2027-01-11",
@@ -3565,7 +3549,7 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Lunes después del 9K: rodaje suave para soltar piernas, sin calidad hasta el jueves.",
+          "porque": "Lunes después del 9K: rodaje suave para soltar piernas. Tras un test de 9-10 km, la calidad no vuelve hasta 3 días después: esta semana, el miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Frío",
@@ -3573,38 +3557,6 @@
         },
         {
           "fecha": "2027-01-12",
-          "tipo": "facil",
-          "titulo": "Rodaje suave + strides (después del 9K)",
-          "clave": false,
-          "kmPlan": 7.5,
-          "minPlan": 51,
-          "objetivo": "45' a 6:20-6:55/km · FC 135-150 · 4 strides",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco."
-            },
-            {
-              "parte": "principal",
-              "texto": "45' a 6:20-6:55/km con FC 135-150 (unos 6,8 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
-            },
-            {
-              "parte": "principal",
-              "texto": "Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' andando y 5' de movilidad de tobillos y caderas."
-            }
-          ],
-          "porque": "Dos días después del 9K: rodaje suave con strides. Tras un test de 9-10 km, la calidad no vuelve hasta 3 días después: esta semana, el jueves en la cinta.",
-          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
-          "fuerza": null,
-          "nutricion": "Rodaje suave",
-          "geles": false
-        },
-        {
-          "fecha": "2027-01-13",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -3629,32 +3581,60 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
           "nutricion": "Víspera de series o tempo",
           "geles": false
         },
         {
-          "fecha": "2027-01-14",
+          "fecha": "2027-01-13",
           "tipo": "ritmo",
-          "titulo": "Gimnasio: ritmo objetivo 2×2,5 km en cinta + fuerza",
+          "titulo": "Ritmo objetivo 2×2,5 km",
           "clave": true,
-          "kmPlan": 7.5,
-          "minPlan": 44,
-          "objetivo": "2×2,5 km en cinta a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2' · fuerza A3",
+          "kmPlan": 8.8,
+          "minPlan": 54,
+          "objetivo": "2×2,5 km a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles en la cinta al 1 % a 6:20-6:55/km, subiendo la velocidad poco a poco."
+              "texto": "12' fáciles a 6:20-6:55/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "2×2,5 km a ritmo objetivo, con FC 168-176 y 2' andando o trotando muy suave entre bloques. B: 5:26/km (11,0 km/h). Vía A: 5:18 (11,3 km/h), solo si el test de la S12 la confirmó. Si el test de la S12 no confirmó la vía B, usa el ritmo de tu 10K equivalente + 13-15 s/km."
+              "texto": "2×2,5 km a ritmo objetivo (B 5:26/km · A 5:18 si el test de S12 lo confirma), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento. Si el test de la S12 no confirmó la vía B, usa el ritmo de tu 10K equivalente + 13-15 s/km."
             },
             {
               "parte": "vuelta",
-              "texto": "5' muy suaves en la cinta."
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "La calidad de la semana, tres días después del 9K: bloques a ritmo objetivo, el trabajo más específico. Aprendes a sentir y sostener el ritmo de carrera.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×1,5 km + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
+          "geles": false
+        },
+        {
+          "fecha": "2027-01-14",
+          "tipo": "facil",
+          "titulo": "Gimnasio: cinta suave + strides y fuerza",
+          "clave": false,
+          "kmPlan": 6.0,
+          "minPlan": 41,
+          "objetivo": "35' en cinta a 6:20-6:55/km · FC 135-150 · 4 strides · fuerza A3",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "35' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 5,3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
+            },
+            {
+              "parte": "principal",
+              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
             },
             {
               "parte": "principal",
@@ -3665,10 +3645,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "La calidad de la semana, en la cinta: bloques a ritmo objetivo, el trabajo más específico. Aprendes a sentir y sostener el ritmo de carrera. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma sesión en llano en la calle y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: 10' + 2×1,5 km + 5' en la cinta y la versión de 20' de la fuerza.",
+          "porque": "Cinta suave con strides y potencia al día siguiente de los bloques. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A3",
-          "nutricion": "Día de series después del trabajo",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -3717,7 +3697,7 @@
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "La tirada más larga: fondo para 21 km y geles como en carrera. Va fácil entera porque el jueves ya hubo ritmo objetivo: nunca dos sesiones duras en la misma semana sin un día fácil entre medias.",
+          "porque": "La tirada más larga: fondo para 21 km y geles como en carrera. Va fácil entera porque el miércoles ya hubo ritmo objetivo.",
           "alternativa": "Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
           "fuerza": null,
           "nutricion": "Tirada larga con práctica de geles",
@@ -3752,7 +3732,7 @@
       "titulo": "Pico y simulación",
       "kmPlan": 47.0,
       "descarga": false,
-      "nota": "Pico de volumen y simulación el sábado: 2×6 km a ritmo objetivo dentro de 18 km. Junto al test de la S12, fija tu ritmo de carrera. Último control de FC el lunes, descansado y lejos del umbral del martes; el jueves, cinta suave y fuerza con RIR 3.",
+      "nota": "Pico de volumen y simulación el sábado: 2×6 km a ritmo objetivo dentro de 18 km. Junto al test de la S12, fija tu ritmo de carrera. Último control de FC el lunes, descansado y lejos del umbral del miércoles; el jueves, cinta suave y fuerza con RIR 3.",
       "dias": [
         {
           "fecha": "2027-01-18",
@@ -3779,39 +3759,11 @@
           "porque": "Mide tu eficiencia aeróbica: a la misma FC, cada control debería salir más rápido. En enero, la vía B pide unos 6:00/km o mejor y la A, 5:45-5:50.",
           "alternativa": "Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2027-01-19",
-          "tipo": "umbral",
-          "titulo": "Umbral 4×8'",
-          "clave": true,
-          "kmPlan": 10.1,
-          "minPlan": 60,
-          "objetivo": "4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma) · FC 176-181 · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "12' fáciles a 6:20-6:55/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el test de la S12 no confirmó la vía B, a 5:25/km."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×8' + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2027-01-20",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -3836,10 +3788,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Fatiga persistente",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2027-01-20",
+          "tipo": "umbral",
+          "titulo": "Umbral 4×8'",
+          "clave": true,
+          "kmPlan": 10.1,
+          "minPlan": 60,
+          "objetivo": "4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma) · FC 176-181 · rec 1'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "12' fáciles a 6:20-6:55/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el test de la S12 no confirmó la vía B, a 5:25/km."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "8' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×8' + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -3872,10 +3852,10 @@
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave porque el sábado hay simulación: nunca dos sesiones duras seguidas. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va el miércoles.",
+          "porque": "Cinta suave al día siguiente del umbral y con simulación el sábado: nunca dos sesiones duras seguidas. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A3",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Fatiga persistente",
           "geles": false
         },
         {
@@ -3963,7 +3943,7 @@
       "titulo": "Puesta a punto",
       "kmPlan": 36.0,
       "descarga": false,
-      "nota": "Empieza la puesta a punto: ~75 % del volumen y la última sesión 'normal' el martes (3×3 km a ritmo). El jueves 28, la última fuerza, ligera, 10 días antes de la carrera. Duerme mucho: ahora se asimila todo.",
+      "nota": "Empieza la puesta a punto: ~75 % del volumen y la última sesión 'normal' el miércoles (3×3 km a ritmo). El jueves 28, la última fuerza, ligera, 10 días antes de la carrera. Duerme mucho: ahora se asimila todo.",
       "dias": [
         {
           "fecha": "2027-01-25",
@@ -3987,42 +3967,14 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y llegas fresco a la calidad del martes.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
-          "nutricion": "Víspera de series o tempo",
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
           "fecha": "2027-01-26",
-          "tipo": "ritmo",
-          "titulo": "Ritmo objetivo 3×3 km",
-          "clave": true,
-          "kmPlan": 12.5,
-          "minPlan": 73,
-          "objetivo": "3×3 km a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "10' fáciles a 6:20-6:55/km + 3 strides de 20\"."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×3 km a ritmo objetivo (B 5:26/km · A 5:18 si el test de S12 lo confirma), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento. Si el test de la S12 o la simulación no confirmaron la vía B, haz los bloques a tu ritmo de carrera ya decidido."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "6' muy suaves y movilidad."
-            }
-          ],
-          "porque": "Última sesión 'normal', 12 días antes: mantiene el ritmo de carrera sin dejar fatiga para el día 7.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×3 km + 5' suaves.",
-          "fuerza": null,
-          "nutricion": "Día de series después del trabajo",
-          "geles": false
-        },
-        {
-          "fecha": "2027-01-27",
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
@@ -4047,10 +3999,38 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
-          "nutricion": "Día de fuerza",
+          "nutricion": "Víspera de series o tempo",
+          "geles": false
+        },
+        {
+          "fecha": "2027-01-27",
+          "tipo": "ritmo",
+          "titulo": "Ritmo objetivo 3×3 km",
+          "clave": true,
+          "kmPlan": 12.5,
+          "minPlan": 73,
+          "objetivo": "3×3 km a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2'",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "10' fáciles a 6:20-6:55/km + 3 strides de 20\"."
+            },
+            {
+              "parte": "principal",
+              "texto": "3×3 km a ritmo objetivo (B 5:26/km · A 5:18 si el test de S12 lo confirma), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento. Si el test de la S12 o la simulación no confirmaron la vía B, haz los bloques a tu ritmo de carrera ya decidido."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "6' muy suaves y movilidad."
+            }
+          ],
+          "porque": "Última sesión 'normal', 11 días antes: mantiene el ritmo de carrera sin dejar fatiga para el día 7.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×3 km + 5' suaves.",
+          "fuerza": null,
+          "nutricion": "Día de series después del trabajo",
           "geles": false
         },
         {
@@ -4160,9 +4140,9 @@
       "inicio": "2027-02-01",
       "fase": "taper",
       "titulo": "Semana de carrera",
-      "kmPlan": 46.5,
+      "kmPlan": 46.0,
       "descarga": false,
-      "nota": "Semana de carrera, sin pierna: menos km y la misma intensidad, con 4×1 km a ritmo el martes y un toque el jueves. El miércoles 3, torso ligero y opcional, sin machacar hombros ni espalda. El viernes, descanso y recoger el dorsal; el sábado, descanso (o 15' de activación si te apetece). Domingo 7 a las 9:30: a por ello, con cabeza en los 3 primeros km.",
+      "nota": "Semana de carrera, sin pierna: menos km y la misma intensidad. El martes 2, rodaje corto y prescindible y torso ligero y opcional, sin machacar hombros ni espalda; el miércoles 3, el afinado (4×1 km a ritmo de media), y el jueves, solo una cinta suave y corta, sin pierna. El viernes, descanso y recoger el dorsal; el sábado, descanso (o 15' de activación si te apetece). Domingo 7 a las 9:30: a por ello, con cabeza en los 3 primeros km.",
       "dias": [
         {
           "fecha": "2027-02-01",
@@ -4198,6 +4178,38 @@
         },
         {
           "fecha": "2027-02-02",
+          "tipo": "facil",
+          "titulo": "Rodaje corto (prescindible) + torso ligero opcional",
+          "clave": false,
+          "kmPlan": 4.5,
+          "minPlan": 30,
+          "objetivo": "30' a 6:20-6:55/km · FC 135-150",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco."
+            },
+            {
+              "parte": "principal",
+              "texto": "30' a 6:20-6:55/km con FC 135-150 (unos 4,5 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella. En la calle o en la cinta del gimnasio."
+            },
+            {
+              "parte": "principal",
+              "texto": "Torso ligero y opcional (rutina TL, 25'), solo si te apetece. No machaques hombros ni espalda: nada de fallo ni de cargas nuevas a 5 días de la media."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' andando y 5' de movilidad de tobillos y caderas."
+            }
+          ],
+          "porque": "Mantener la frecuencia con un rodaje corto. Es el prescindible: si vas cansado o con nervios, quítalo.",
+          "alternativa": "Si vas cansado o el trabajo se alarga, quítalo sin remordimientos: es el día prescindible de la semana. Si llueve o sopla fuerte: cinta al 1 % con la misma FC.",
+          "fuerza": "TL",
+          "nutricion": "Semana de carrera (días -7 a -3)",
+          "geles": false
+        },
+        {
+          "fecha": "2027-02-03",
           "tipo": "ritmo",
           "titulo": "Series cortas 4×1 km a ritmo de media",
           "clave": true,
@@ -4225,13 +4237,13 @@
           "geles": false
         },
         {
-          "fecha": "2027-02-03",
+          "fecha": "2027-02-04",
           "tipo": "facil",
-          "titulo": "Rodaje corto (prescindible) + torso ligero opcional",
+          "titulo": "Cinta suave corta + strides (sin pierna)",
           "clave": false,
           "kmPlan": 4.5,
-          "minPlan": 30,
-          "objetivo": "30' a 6:20-6:55/km · FC 135-150",
+          "minPlan": 31,
+          "objetivo": "25' a 6:20-6:55/km · FC 135-150 · 4 strides",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -4239,47 +4251,19 @@
             },
             {
               "parte": "principal",
-              "texto": "30' a 6:20-6:55/km con FC 135-150 (unos 4,5 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella. En la calle o en la cinta del gimnasio."
+              "texto": "25' a 6:20-6:55/km con FC 135-150 (unos 3,8 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella. En la cinta al 1 % o en la calle, como prefieras."
             },
             {
               "parte": "principal",
-              "texto": "Torso ligero y opcional (rutina TL, 25'), solo si te apetece. No machaques hombros ni espalda: nada de fallo ni de cargas nuevas a 4 días de la media."
+              "texto": "Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Mantener la frecuencia con un rodaje corto. Es el prescindible: si vas cansado o con nervios, quítalo.",
-          "alternativa": "Si vas cansado o el trabajo se alarga, quítalo sin remordimientos: es el día prescindible de la semana. Si llueve o sopla fuerte: cinta al 1 % con la misma FC.",
-          "fuerza": "TL",
-          "nutricion": "Semana de carrera (días -7 a -3)",
-          "geles": false
-        },
-        {
-          "fecha": "2027-02-04",
-          "tipo": "facil",
-          "titulo": "Rodaje suave con 3×1' a ritmo de media",
-          "clave": false,
-          "kmPlan": 4.6,
-          "minPlan": 30,
-          "objetivo": "20' fáciles + 3×1' a ritmo de carrera · rec 1'",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "20' fáciles a 6:20-6:55/km con FC 135-150."
-            },
-            {
-              "parte": "principal",
-              "texto": "3×1' a tu ritmo de carrera (B 5:26 · A 5:18 · C 5:39), con 1' suave entre medias. Solo para recordar la sensación."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "5' fáciles y movilidad."
-            }
-          ],
-          "porque": "Último toque de ritmo, muy corto: mantiene la chispa sin gastar nada. Esta semana, sin pierna en el gimnasio.",
-          "alternativa": "Si llueve o vas justo de tiempo, en cinta al 1 % o solo 20' suaves.",
+          "porque": "Tres días antes de la media: cinta suave y corta con unos strides para llegar con las piernas despiertas. Esta semana, sin pierna en el gimnasio.",
+          "alternativa": "Si vas justo de tiempo o con nervios, 15-20' suaves sin strides, o descansa: la forma ya está hecha.",
           "fuerza": null,
           "nutricion": "Semana de carrera (días -7 a -3)",
           "geles": false
