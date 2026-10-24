@@ -1273,10 +1273,10 @@
       "n": 2,
       "inicio": "2026-10-26",
       "fase": "reconstruccion",
-      "titulo": "Fartlek",
-      "kmPlan": 21.5,
+      "titulo": "Cambios a umbral",
+      "kmPlan": 22.0,
       "descarga": false,
-      "nota": "Estrenas la semana tipo nueva, alternando correr y gimnasio: lunes suave, martes de torso, miércoles de calidad, jueves de cinta suave y pierna. La calidad, un fartlek (6×2' a 6:00/km) el miércoles 28 en lugar de los 400; la tirada, a 8,8 km, y el lunes algo más corto para no subir los km. El test de 5K será el miércoles 25-nov en pista y en solitario: no hace falta inscribirse en nada.",
+      "nota": "Revisión de la S1: control del lunes a 6:10-6:40 con 145-150 ppm (tu punto de partida). Las 400: la 1.ª lenta por calentar poco (1 km), las tres últimas a 5:02-5:09, de lujo. La tirada del sábado se te fue de pulso (152 de media, 156-164 del km 4 al 7): el sábado que viene, si pasas de 150, afloja aunque salga a 7:15. Como las series fueron bien, el miércoles sube un escalón: 6×2' a umbral en vez del fartlek suave. Calienta los 12' completos.",
       "dias": [
         {
           "fecha": "2026-10-26",
@@ -1336,28 +1336,28 @@
         },
         {
           "fecha": "2026-10-28",
-          "tipo": "fartlek",
-          "titulo": "Fartlek a ritmo maratón",
+          "tipo": "umbral",
+          "titulo": "Cambios a umbral 6×2'",
           "clave": true,
-          "kmPlan": 5.5,
-          "minPlan": 37,
-          "objetivo": "6×2' a 6:00/km · FC 155-165 · rec 2'",
+          "kmPlan": 6.2,
+          "minPlan": 42,
+          "objetivo": "6×2' a 5:41-5:46/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles a 6:45-7:20/km."
+              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "6×2' a ritmo maratón, 6:00/km (FC 155-165), con 2' suaves entre cambios. En llano. Tiene que sentirse alegre, no duro: la semana pasada ya hubo 400 m."
+              "texto": "6×2' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
-              "texto": "5' muy suaves y movilidad."
+              "texto": "8' muy suaves y movilidad."
             }
           ],
-          "porque": "Cambios a ritmo maratón: más largos que los 400 m de la semana pasada y algo más lentos, preparan el primer umbral de la semana que viene sin dejar fatiga.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 4×2' a 6:00/km + 5' suaves.",
+          "porque": "Cambios cortos a ritmo de umbral: el paso natural después de los 400 y la antesala del primer umbral largo (3×6') de la semana que viene. Cortos para que salgan con calidad.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 4×2' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
