@@ -71,7 +71,7 @@
       "nombre": "Fácil",
       "min": 135,
       "max": 150,
-      "uso": "Rodajes y tirada larga (hasta 152): el 75-80 % del tiempo. Puedes hablar en frases largas. Objetivo en llano: 135-150."
+      "uso": "Rodajes y tirada larga (hasta 155): el 75-80 % del tiempo. Puedes hablar en frases largas. Objetivo en llano: 135-150."
     },
     {
       "id": "Z3",
@@ -115,7 +115,7 @@
         {
           "tipo": "Tirada larga",
           "ritmo": "6:45-7:15",
-          "fc": "135-152"
+          "fc": "135-155"
         },
         {
           "tipo": "Ritmo maratón (steady)",
@@ -168,7 +168,7 @@
         {
           "tipo": "Tirada larga",
           "ritmo": "6:30-7:05",
-          "fc": "135-152"
+          "fc": "135-155"
         },
         {
           "tipo": "Ritmo maratón (steady)",
@@ -221,7 +221,7 @@
         {
           "tipo": "Tirada larga",
           "ritmo": "6:15-6:50 + bloques (A: 6:05-6:40)",
-          "fc": "135-152; los bloques, a la FC de su ritmo"
+          "fc": "135-155; los bloques, a la FC de su ritmo"
         },
         {
           "tipo": "Ritmo maratón",
@@ -1027,7 +1027,7 @@
           "clave": true,
           "kmPlan": 7.0,
           "minPlan": 49,
-          "objetivo": "7 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "7 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1035,14 +1035,14 @@
             },
             {
               "parte": "principal",
-              "texto": "7 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "7 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "Primera salida del plan, más corta que la del 4-oct (8 km) y, sobre todo, más suave: allí fuiste a FC 171-177; hoy, 135-152. Te parecerá lento: es lo correcto.",
+          "porque": "Primera salida del plan, más corta que la del 4-oct (8 km) y, sobre todo, más suave: allí fuiste a FC 171-177; hoy, 135-155. Te parecerá lento: es lo correcto.",
           "alternativa": "Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy. No la hagas entera en cinta (como mucho 60' en cinta).",
           "fuerza": null,
           "nutricion": "Día de tirada larga",
@@ -1226,7 +1226,7 @@
           "clave": true,
           "kmPlan": 8.0,
           "minPlan": 56,
-          "objetivo": "8 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "8 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1234,7 +1234,7 @@
             },
             {
               "parte": "principal",
-              "texto": "8 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "8 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -1425,7 +1425,7 @@
           "clave": true,
           "kmPlan": 8.8,
           "minPlan": 62,
-          "objetivo": "8,8 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "8,8 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1433,7 +1433,7 @@
             },
             {
               "parte": "principal",
-              "texto": "8,8 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "8,8 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -1473,18 +1473,18 @@
       "inicio": "2026-11-02",
       "fase": "reconstruccion",
       "titulo": "Primer umbral y cinco días",
-      "kmPlan": 26.5,
+      "kmPlan": 28.0,
       "descarga": false,
-      "nota": "Pasas a 5 días: el martes, antes del torso, entra una cinta opcional de 20-30' suaves, lo prescindible de la semana (si vas cansado o el trabajo se alarga, se quita). El miércoles, primer umbral (3×6' a 5:41-5:46). Las cuestas cortas van en la cinta del jueves (6×10\" al 6-8 %), antes de la pierna. El lunes, algo más corto para no subir los km.",
+      "nota": "Revisión de la S2: los 6×2' salieron a 5:38-5:50 con FC 156-164, muy por debajo de tu FC de umbral, así que el umbral del miércoles va ya a tu ritmo real (5:36). La tirada (8,9 km) tuvo deriva: del km 5 al 9, a 7:35-7:54 con FC 150-159. Desde ahora el techo de las tiradas es 155: es tu base aeróbica la que manda y esa deriva irá bajando. Pediste más km: el lunes sube a 40' y la cinta del martes deja de ser prescindible si vas bien.",
       "dias": [
         {
           "fecha": "2026-11-02",
           "tipo": "facil",
           "titulo": "Rodaje suave",
           "clave": false,
-          "kmPlan": 4.3,
-          "minPlan": 30,
-          "objetivo": "30' a 6:45-7:20/km · FC 135-150",
+          "kmPlan": 5.7,
+          "minPlan": 40,
+          "objetivo": "40' a 6:45-7:20/km · FC 135-150",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1492,7 +1492,7 @@
             },
             {
               "parte": "principal",
-              "texto": "30' a 6:45-7:20/km con FC 135-150 (unos 4,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "40' a 6:45-7:20/km con FC 135-150 (unos 5,7 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -1500,7 +1500,7 @@
             }
           ],
           "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
-          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+          "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Rodaje suave",
           "geles": false
@@ -1542,9 +1542,9 @@
           "tipo": "umbral",
           "titulo": "Primer umbral 3×6'",
           "clave": true,
-          "kmPlan": 6.1,
+          "kmPlan": 6.2,
           "minPlan": 40,
-          "objetivo": "3×6' a 5:41-5:46/km · FC 176-181 · rec 1'",
+          "objetivo": "3×6' a 5:36/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1552,14 +1552,14 @@
             },
             {
               "parte": "principal",
-              "texto": "3×6' a 5:41-5:46/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "3×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
               "texto": "5' muy suaves y movilidad."
             }
           ],
-          "porque": "Primer umbral: el pilar de la media. Empiezas algo más lento que tu umbral real (5:36) para entrar sin castigo.",
+          "porque": "Primer umbral: el pilar de la media. Los 6×2' de la semana pasada salieron con la FC muy por debajo del umbral, así que vas directo a tu ritmo real.",
           "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
@@ -1628,7 +1628,7 @@
           "clave": true,
           "kmPlan": 9.6,
           "minPlan": 67,
-          "objetivo": "9,6 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "9,6 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1636,7 +1636,7 @@
             },
             {
               "parte": "principal",
-              "texto": "9,6 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "9,6 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -1827,7 +1827,7 @@
           "clave": true,
           "kmPlan": 7.0,
           "minPlan": 49,
-          "objetivo": "7 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "7 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1835,7 +1835,7 @@
             },
             {
               "parte": "principal",
-              "texto": "7 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "7 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -2030,7 +2030,7 @@
           "clave": true,
           "kmPlan": 10.5,
           "minPlan": 74,
-          "objetivo": "10,5 km a 6:45-7:15/km · FC 135-152",
+          "objetivo": "10,5 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2038,7 +2038,7 @@
             },
             {
               "parte": "principal",
-              "texto": "10,5 km continuos a 6:45-7:15/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "10,5 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -2233,7 +2233,7 @@
           "clave": true,
           "kmPlan": 11.5,
           "minPlan": 78,
-          "objetivo": "11,5 km a 6:30-7:05/km · FC 135-152",
+          "objetivo": "11,5 km a 6:30-7:05/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2241,7 +2241,7 @@
             },
             {
               "parte": "principal",
-              "texto": "11,5 km continuos a 6:30-7:05/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "11,5 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -2436,7 +2436,7 @@
           "clave": true,
           "kmPlan": 12.6,
           "minPlan": 83,
-          "objetivo": "10,6 km fáciles + 2 km a 5:48/km · FC 135-152 / 155-165",
+          "objetivo": "10,6 km fáciles + 2 km a 5:48/km · FC 135-155 / 155-165",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2444,7 +2444,7 @@
             },
             {
               "parte": "principal",
-              "texto": "10,6 km a 6:30-7:05/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "10,6 km a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -2850,7 +2850,7 @@
           "clave": true,
           "kmPlan": 15.1,
           "minPlan": 102,
-          "objetivo": "15,1 km a 6:30-7:05/km · FC 135-152 · geles",
+          "objetivo": "15,1 km a 6:30-7:05/km · FC 135-155 · geles",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2858,7 +2858,7 @@
             },
             {
               "parte": "principal",
-              "texto": "15,1 km continuos a 6:30-7:05/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "15,1 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -3057,7 +3057,7 @@
           "clave": true,
           "kmPlan": 16.6,
           "minPlan": 112,
-          "objetivo": "16,6 km a 6:30-7:05/km · FC 135-152 · geles",
+          "objetivo": "16,6 km a 6:30-7:05/km · FC 135-155 · geles",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -3065,7 +3065,7 @@
             },
             {
               "parte": "principal",
-              "texto": "16,6 km continuos a 6:30-7:05/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "16,6 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -3268,7 +3268,7 @@
           "clave": true,
           "kmPlan": 18.2,
           "minPlan": 118,
-          "objetivo": "18,2 km a 6:15-6:50/km · FC 135-152 · geles",
+          "objetivo": "18,2 km a 6:15-6:50/km · FC 135-155 · geles",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -3276,7 +3276,7 @@
             },
             {
               "parte": "principal",
-              "texto": "18,2 km continuos a 6:15-6:50/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "18,2 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -3678,7 +3678,7 @@
           "clave": true,
           "kmPlan": 20.0,
           "minPlan": 130,
-          "objetivo": "20 km a 6:15-6:50/km · FC 135-152 · geles",
+          "objetivo": "20 km a 6:15-6:50/km · FC 135-155 · geles",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -3686,7 +3686,7 @@
             },
             {
               "parte": "principal",
-              "texto": "20 km continuos a 6:15-6:50/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "20 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -4092,7 +4092,7 @@
           "clave": true,
           "kmPlan": 10.5,
           "minPlan": 68,
-          "objetivo": "10,5 km a 6:15-6:50/km · FC 135-152",
+          "objetivo": "10,5 km a 6:15-6:50/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -4100,7 +4100,7 @@
             },
             {
               "parte": "principal",
-              "texto": "10,5 km continuos a 6:15-6:50/km con FC 135-152. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "10,5 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
