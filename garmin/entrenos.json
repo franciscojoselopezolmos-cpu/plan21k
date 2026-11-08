@@ -1,0 +1,5275 @@
+[
+ {
+  "fecha": "2026-11-09",
+  "nombre": "P21K · Rodaje de control de FC",
+  "descripcion": "30' a 145-150 ppm en llano · apunta el ritmo medio\nCalentamiento: 10' fáciles a 6:45-7:20/km con la FC por debajo de 140.\nPrincipal: 30' en llano o pista manteniendo la FC entre 145 y 150 ppm. Pulsa vuelta al empezar y al acabar los 30' y apunta el ritmo medio (orientativo hoy: 6:25/km). Mismo circuito que en la S1: así los dos controles se pueden comparar.\nVuelta: 3-5' andando y movilidad.\nPlan B: Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 140
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 145,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 3,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-10",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:45-7:20/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150 (con 30', unos 4,3 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-11",
+  "nombre": "P21K · Umbral 4×6'",
+  "descripcion": "4×6' a 5:36/km · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:45-7:20/km + 3 strides de 20\".\nPrincipal: 4×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 360,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.021148,
+      "targetValueTwo": 2.932551
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-12",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "15' en cinta a 6:45-7:20/km · FC 135-150 · 4 strides · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 15' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150, unos 2,1 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-14",
+  "nombre": "P21K · Tirada larga suave",
+  "descripcion": "10,5 km a 6:45-7:15/km · FC 135-155\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 10,5 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 10500,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-16",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "35' a 6:45-7:20/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:45-7:20/km con FC 135-150 (unos 5 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-17",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:45-7:20/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150 (con 30', unos 4,3 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga: una serie menos por ejercicio.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-18",
+  "nombre": "P21K · Umbral suave 3×5'",
+  "descripcion": "3×5' a 5:36/km · FC 176-181 · rec 1'\nCalentamiento: 10' fáciles a 6:45-7:20/km + 3 strides de 20\".\nPrincipal: 3×5' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras.\nVuelta: 5' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×5' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 300,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.021148,
+      "targetValueTwo": 2.932551
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 300,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-19",
+  "nombre": "P21K · Rodaje suave opcional (Granada)",
+  "descripcion": "30' a 6:45-7:20/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 30' a 6:45-7:20/km con FC 135-150 (unos 4,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si no puedes correr, descanso. No la recuperes otro día.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-21",
+  "nombre": "P21K · Tirada larga suave",
+  "descripcion": "8 km a 6:45-7:15/km · FC 135-155\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 8 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si el sábado no puedes, hazla el domingo 22 al volver (excepción a tu domingo libre). Si tampoco, sáltatela: es semana de descarga y el test es lo importante.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 8000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-23",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "40' a 6:45-7:20/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 40' a 6:45-7:20/km con FC 135-150 (unos 5,7 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2400,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-24",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:45-7:20/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150 (con 30', unos 4,3 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Víspera del test: todo con RIR 3, nada de fallo en dorsales ni hombros.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pi…",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-25",
+  "nombre": "P21K · Test 5K en pista (en solitario)",
+  "descripcion": "5K: B ≤ 26:10 · A ≤ 25:25 · alarma > 27:20\nCalentamiento: 20' muy suaves (unos 2,8 km) + movilidad + 4 strides de 20\". Al salir del trabajo: merienda ligera 1,5-2 h antes y nada pesado en la comida.\nPrincipal: 5K a tope pero repartido, en solitario: 12 vueltas y media a la calle 1 (pulsa vuelta en cada km). El km 1 a unos 5:20-5:25 (2:08-2:10 por 400 m), sin salir a lo loco; los km 2-4 constantes y el último con todo lo que quede. Apunta el tiempo final y la FC media.\nPrincipal: Cuenta para recalibrar si hay menos de 15 °C, sin viento fuerte y llegas con dos días suaves (lunes de rodaje suave y martes de torso). Solo cuesta más que en carrera: no te cebes en el primer km y aprieta en el último.\nVuelta: 17' de trote muy suave (unos 2,4 km): forman parte del entrenamiento del día.\nPlan B: Si hoy hay viento fuerte o lluvia, o no puedes ir a la pista: 30' suaves y el test pasa al jueves 26, con el mismo calentamiento y sin pierna ese día (esa semana se pierde). Sin pista: TT30 en llano …",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1200,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 5000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 6,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1020,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-26",
+  "nombre": "P21K · Cinta suave + pierna",
+  "descripcion": "40' en cinta a 6:30-7:10/km · FC 135-150 · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 40' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 5,9 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Si vas muy cargado del test, deja todo con RIR 3.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2400,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-28",
+  "nombre": "P21K · Tirada larga fácil",
+  "descripcion": "11,5 km a 6:30-7:05/km · FC 135-155\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 11,5 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 11500,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-11-30",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "35' a 6:30-7:10/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:30-7:10/km con FC 135-150 (unos 5,1 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-01",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-02",
+  "nombre": "P21K · Umbral 4×7'",
+  "descripcion": "4×7' a 5:25/km · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:30-7:10/km + 3 strides de 20\".\nPrincipal: 4×7' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×7' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 420,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.125,
+      "targetValueTwo": 3.030303
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-03",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "25' en cinta a 6:30-7:10/km · FC 135-150 · 6 strides · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 25' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 3,7 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 6 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Esta semana, una serie menos de sentadilla y de peso muerto: el sábado hay final a ritmo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: l…",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1500,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 6,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 6,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-05",
+  "nombre": "P21K · Tirada larga con final a ritmo maratón",
+  "descripcion": "10,6 km fáciles + 2 km a 5:48/km · FC 135-155 / 155-165\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 10,6 km a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Sin parar, los últimos 2 km a 5:48/km, con FC 155-165: ritmo maratón, cómodo y controlado, no de media. Busca un tramo llano para ese final.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 10600,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 2000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 6,
+     "workoutTargetTypeKey": "pace.zone"
+    },
+    "targetValueOne": 2.915452,
+    "targetValueTwo": 2.832861
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 3,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-07",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "35' a 6:30-7:10/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:30-7:10/km con FC 135-150 (unos 5,1 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-08",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga y de test: una serie menos por ejercicio y nada de fallo en dorsales ni hombros.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha …",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-09",
+  "nombre": "P21K · Umbral corto 3×6'",
+  "descripcion": "3×6' a 5:25/km · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:30-7:10/km + 3 strides de 20\".\nPrincipal: 3×6' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 360,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.125,
+      "targetValueTwo": 3.030303
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-10",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "20' en cinta a 6:30-7:10/km · FC 135-150 · 4 strides · fuerza A2d\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 2,9 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2d (30'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1200,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-13",
+  "nombre": "P21K · Test 10K · IX Mar Menor Running Challenge (La Manga)",
+  "descripcion": "10K: B ≤ 52:40 · A ≤ 51:15 · alarma > 55:30 (con ajuste por volumen)\nCalentamiento: 15' suaves (unos 2,2 km) + movilidad + 4 strides. Salida a las 12:00: desayuna hacia las 9:00 y sal de casa con margen (55-60' de coche).\nPrincipal: 10K con reparto parejo: km 1-2 a 5:18-5:22 y, si vas cómodo, baja a 5:12-5:16 (la vía B pide 5:16 de media); aprieta en los 2 últimos. Pulsa vuelta en cada km y apunta tiempo final, parciales y FC media. Si sopla viento, corre por esfuerzo.\nPrincipal: Cómo se lee: hasta aquí habrás promediado unos 31 km/semana y tu tirada más larga será de 12,6 km, así que el juez pide 30 s menos para confirmar vía. Vía B: 52:40 o menos; vía A: 51:15 o menos. Entre 52:41 y 55:30, sigues con los ritmos de la base hasta el test de la S12.\nVuelta: 9-10' de trote muy suave (unos 1,3 km).\nPlan B: Si no puedes ir o hace mucho viento: 10K en pista el sábado 12 o el domingo 13 por la mañana, con el mismo calentamiento (si lo haces el sábado, el domingo descansa).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 10000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 6,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-14",
+  "nombre": "P21K · Rodaje suave (después del 10K)",
+  "descripcion": "40' a 6:30-7:10/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 40' a 6:30-7:10/km con FC 135-150 (unos 5,9 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2400,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-15",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-16",
+  "nombre": "P21K · Umbral 3×10'",
+  "descripcion": "3×10' a 5:25/km · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:30-7:10/km + 3 strides de 20\".\nPrincipal: 3×10' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×10' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 600,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.125,
+      "targetValueTwo": 3.030303
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-17",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "30' en cinta a 6:30-7:10/km · FC 135-150 · 4 strides · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 4,4 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-19",
+  "nombre": "P21K · Tirada larga fácil + geles",
+  "descripcion": "15,1 km a 6:30-7:05/km · FC 135-155 · geles\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 15,1 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Geles: el primero hacia el minuto 40 y luego uno cada 35-40', con unos sorbos de agua. Usa la marca y el sabor que tomarás en carrera y apunta cómo te sientan.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 15100,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-21",
+  "nombre": "P21K · Tempo moderado de 20' (calidad secundaria)",
+  "descripcion": "20' seguidos a 5:37/km · FC 166-175\nCalentamiento: 10' fáciles a 6:30-7:10/km + 3 strides de 20\".\nPrincipal: 20' seguidos a 5:37/km, con FC 166-175. En llano. Esfuerzo 6/10: cómodo-duro, podrías hablar con frases cortas. Un escalón por debajo del umbral.\nVuelta: 5' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 15' seguidos + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1200,
+    "targetType": {
+     "workoutTargetTypeId": 6,
+     "workoutTargetTypeKey": "pace.zone"
+    },
+    "targetValueOne": 3.012048,
+    "targetValueTwo": 2.923977
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 6,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 300,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-22",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-23",
+  "nombre": "P21K · Series VO2máx 4×3'",
+  "descripcion": "4×3' a 5:00/km (2:00 por 400 m) · rec 2'30\" trote\nCalentamiento: 15' fáciles a 6:30-7:10/km + 4 strides de 20\".\nPrincipal: 4×3' a 5:00/km (2:00 por 400 m), con la FC por encima de 182 al final de cada serie y 2'30\" de trote suave entre series. En pista. La FC llega tarde en series cortas: aquí manda el ritmo.\nVuelta: 10' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×3' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 180,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.378378,
+      "targetValueTwo": 3.289474
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 150,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-24",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "35' en cinta a 6:30-7:10/km · FC 135-150 · 4 strides · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 5,1 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-26",
+  "nombre": "P21K · Tirada larga fácil + geles",
+  "descripcion": "16,6 km a 6:30-7:05/km · FC 135-155 · geles\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 16,6 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Geles: el primero hacia el minuto 40 y luego uno cada 35-40', con unos sorbos de agua. Usa la marca y el sabor que tomarás en carrera y apunta cómo te sientan.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 16600,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-28",
+  "nombre": "P21K · Rodaje de control de FC",
+  "descripcion": "30' a 145-150 ppm en llano · apunta el ritmo medio\nCalentamiento: 10' fáciles a 6:20-6:55/km con la FC por debajo de 140.\nPrincipal: 30' en llano o pista manteniendo la FC entre 145 y 150 ppm. Pulsa vuelta al empezar y al acabar los 30' y apunta el ritmo medio (orientativo hoy: 6:05/km). Mismo circuito de siempre.\nVuelta: 3-5' andando y movilidad.\nPlan B: Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 140
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 145,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 3,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-29",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-30",
+  "nombre": "P21K · Alternos 3+3 km",
+  "descripcion": "Alternos 3+3 km: 5:17-5:20 / 5:54-6:02 · sin parar\nCalentamiento: 15' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 6 km sin parar alternando 1 km a 5:17-5:20 (algo más rápido que tu ritmo de media) y 1 km a 5:54-6:02, 3 veces. Vía A, solo si el 10K de la S8 la confirmó: 5:09-5:12 / 5:46-5:53. En llano o pista; el km lento no es descanso: va algo más lento que el ritmo maratón, pero sin aflojar.\nPrincipal: Si el 10K de la S8 no confirmó la vía B, haz los alternos sobre tu ritmo de media actual (5:37): 5:27-5:30 / 6:06-6:14.\nVuelta: 10' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + alternos 2+2 km + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 1000,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.154574,
+      "targetValueTwo": 3.125
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 1000,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 2.824859,
+      "targetValueTwo": 2.762431
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-31",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "35' en cinta a 6:20-6:55/km · FC 135-150 · 4 strides · fuerza A2\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 5,3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-02",
+  "nombre": "P21K · Tirada larga fácil + geles",
+  "descripcion": "18,2 km a 6:15-6:50/km · FC 135-155 · geles\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 18,2 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Geles: el primero hacia el minuto 40 y luego uno cada 35-40', con unos sorbos de agua. Usa la marca y el sabor que tomarás en carrera y apunta cómo te sientan.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 18200,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-04",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "35' a 6:20-6:55/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:20-6:55/km con FC 135-150 (unos 5,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-05",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga y de test: una serie menos por ejercicio y nada de fallo en dorsales ni hombros.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha …",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-06",
+  "nombre": "P21K · Umbral corto 3×8'",
+  "descripcion": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó) · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el 10K de la S8 no confirmó la vía B, a 5:25/km.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×8' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 480,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.215434,
+      "targetValueTwo": 3.115265
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-07",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "25' en cinta a 6:20-6:55/km · FC 135-150 · 4 strides · fuerza A3d\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 25' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 3,8 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A3d (25'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1500,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-10",
+  "nombre": "P21K · Test 9K · Paraíso Salado (San Pedro del Pinatar)",
+  "descripcion": "9K: B ≤ 46:39 · A ≤ 45:28 · alarma > 48:44 (fecha estimada)\nCalentamiento: 15' suaves (unos 2,3 km) + movilidad + 4 strides. Confirma antes la fecha y la hora (estimada: domingo 10, ~45-50' de coche).\nPrincipal: 9K con reparto parejo: km 1-2 a 5:15-5:20 y luego aprieta; los 2 últimos, a tope. Apunta tiempo final, parciales y FC media. Equivale a un 10K de: B ≤ 52:10 · A ≤ 50:50 · techo ≤ 49:55. Para la regla del ritmo de carrera, pasa tu tiempo a 10K multiplicándolo por 1,118 (equivale a sumar unos 2 s/km a tu ritmo del 9K).\nVuelta: 10' de trote muy suave (unos 1,5 km).\nPlan B: Si el 9K no se confirma: test de 10K en pista el sábado 9 o el domingo 10 por la mañana, sin viento: 15' + strides + 10K a tope + 10' (unos 14 km). Umbrales del 10K: B ≤ 52:10 · A ≤ 50:50 · alarma > 54:30.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 9000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 6,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-11",
+  "nombre": "P21K · Rodaje suave (después del 9K)",
+  "descripcion": "40' a 6:20-6:55/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 40' a 6:20-6:55/km con FC 135-150 (unos 6 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2400,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-12",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-13",
+  "nombre": "P21K · Ritmo objetivo 2×2,5 km",
+  "descripcion": "2×2,5 km a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2'\nCalentamiento: 12' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 2×2,5 km a ritmo objetivo (B 5:26/km · A 5:18 si el test de S12 lo confirma), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento. Si el test de la S12 no confirmó la vía B, usa el ritmo de tu 10K equivalente + 13-15 s/km.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×1,5 km + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 2,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 2,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 2500,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.115265,
+      "targetValueTwo": 3.021148
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 120,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-14",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "35' en cinta a 6:20-6:55/km · FC 135-150 · 4 strides · fuerza A3\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 5,3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A3 (35'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-16",
+  "nombre": "P21K · Tirada larga fácil + geles (la más larga)",
+  "descripcion": "20 km a 6:15-6:50/km · FC 135-155 · geles\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 20 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Geles: el primero hacia el minuto 40 y luego uno cada 35-40', con unos sorbos de agua. Usa la marca y el sabor que tomarás en carrera y apunta cómo te sientan.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 20000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-18",
+  "nombre": "P21K · Rodaje de control de FC",
+  "descripcion": "30' a 145-150 ppm en llano · apunta el ritmo medio\nCalentamiento: 10' fáciles a 6:20-6:55/km con la FC por debajo de 140.\nPrincipal: 30' en llano o pista manteniendo la FC entre 145 y 150 ppm. Pulsa vuelta al empezar y al acabar los 30' y apunta el ritmo medio (orientativo hoy: 6:00/km). Último control: mismo circuito de siempre.\nVuelta: 15' más a ritmo fácil y 3-5' andando.\nPlan B: Si no hay sitio llano: cinta al 1 % a 145-150 ppm (apunta que fue en cinta). Si el trabajo se alarga, haz 25' fáciles y sáltate el control esta semana: solo sirve si todos se hacen en condiciones parecidas.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 140
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 145,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 3,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-19",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-20",
+  "nombre": "P21K · Umbral 4×8'",
+  "descripcion": "4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma) · FC 176-181 · rec 1'\nCalentamiento: 12' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 4×8' a 5:16/km (vía A: 5:08 si el test de S12 lo confirma), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el test de la S12 no confirmó la vía B, a 5:25/km.\nVuelta: 8' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×8' + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 720,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 480,
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.215434,
+      "targetValueTwo": 3.115265
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 480,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-21",
+  "nombre": "P21K · Cinta suave + strides + pierna",
+  "descripcion": "30' en cinta a 6:20-6:55/km · FC 135-150 · 6 strides · fuerza A3\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 4,5 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Al terminar, 6 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno.\nPrincipal: Después, sin salir del gimnasio: rutina A3 (35'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Esta semana, todo con RIR 3: el sábado hay simulación.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la f…",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 6,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 6,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-23",
+  "nombre": "P21K · Tirada larga · simulación a ritmo objetivo",
+  "descripcion": "18 km con 2×6 km a 5:26 (A: 5:18) · FC < 177 · geles\nCalentamiento: 3 km fáciles a 6:15-6:50/km (unos 20') y 3 strides de 20\".\nPrincipal: 2×6 km a ritmo objetivo, con 3' de trote suave entre bloques. B: 5:26/km · A: 5:18/km (solo si el test de la S12 la confirmó) · techo: 5:12. En llano. Apunta en cada bloque el ritmo medio, la FC al final y el esfuerzo (1-10).\nPrincipal: La vía queda confirmada si acabas por debajo de 177 ppm, con esfuerzo de 7/10 o menos y la FC no sube más de 6 ppm dentro de cada bloque. Si no aguantas 5:39, el objetivo es C.\nPrincipal: Ensayo general: desayuno, zapatillas, ropa y geles iguales que el día 7. Gel hacia el minuto 35-40 y otro hacia el 75.\nVuelta: 2,5 km muy suaves (unos 17') y 5' andando.\nPlan B: Opción equivalente: 3 km fáciles + 10 km seguidos a ritmo objetivo + 5 km fáciles (18 km). Con viento fuerte, pásala al domingo; si no tienes sitio llano, los bloques en cinta al 1 %.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 3000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 2,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 2,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 6000,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.115265,
+      "targetValueTwo": 3.021148
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 180,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 2500,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-25",
+  "nombre": "P21K · Rodaje suave",
+  "descripcion": "35' a 6:20-6:55/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:20-6:55/km con FC 135-150 (unos 5,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-26",
+  "nombre": "P21K · Cinta opcional + torso",
+  "descripcion": "30' en cinta a 6:20-6:55/km (opcional, 20-30') · FC 135-150 · torso T\nCalentamiento: Opcional: en la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20-30' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150 (con 30', unos 4,5 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana.\nPrincipal: Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test.\nVuelta: 5' de estiramientos suaves de pecho, dorsal y cadera.\nPlan B: La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-27",
+  "nombre": "P21K · Ritmo objetivo 3×3 km",
+  "descripcion": "3×3 km a B 5:26 · A 5:18 si el test de S12 lo confirma · FC 168-176 · rec 2'\nCalentamiento: 10' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 3×3 km a ritmo objetivo (B 5:26/km · A 5:18 si el test de S12 lo confirma), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento. Si el test de la S12 o la simulación no confirmaron la vía B, haz los bloques a tu ritmo de carrera ya decidido.\nVuelta: 6' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×3 km + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 3000,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.115265,
+      "targetValueTwo": 3.021148
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 120,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 360,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-28",
+  "nombre": "P21K · Cinta suave + pierna",
+  "descripcion": "20' en cinta a 6:20-6:55/km · FC 135-150 · fuerza A4\nCalentamiento: En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 20' a 6:20-6:55/km (8,7-9,5 km/h) con FC 135-150, unos 3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad.\nPrincipal: Después, sin salir del gimnasio: rutina A4 (25'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo.\nVuelta: 5' de estiramientos suaves al acabar la fuerza.\nPlan B: Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1200,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-01-30",
+  "nombre": "P21K · Tirada larga suave (puesta a punto)",
+  "descripcion": "10,5 km a 6:15-6:50/km · FC 135-155\nCalentamiento: Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140.\nPrincipal: 10,5 km continuos a 6:15-6:50/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nVuelta: 5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano).\nPlan B: Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 10500,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 155
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-01",
+  "nombre": "P21K · Rodaje suave + strides",
+  "descripcion": "35' a 6:20-6:55/km · FC 135-150 · 4 strides\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 35' a 6:20-6:55/km con FC 135-150 (unos 5,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella.\nPrincipal: Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 2100,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-02",
+  "nombre": "P21K · Rodaje corto (prescindible) + torso ligero opcional",
+  "descripcion": "30' a 6:20-6:55/km · FC 135-150\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 30' a 6:20-6:55/km con FC 135-150 (unos 4,5 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella. En la calle o en la cinta del gimnasio.\nPrincipal: Torso ligero y opcional (rutina TL, 25'), solo si te apetece. No machaques hombros ni espalda: nada de fallo ni de cargas nuevas a 5 días de la media.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si vas cansado o el trabajo se alarga, quítalo sin remordimientos: es el día prescindible de la semana. Si llueve o sopla fuerte: cinta al 1 % con la misma FC.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-03",
+  "nombre": "P21K · Series cortas 4×1 km a ritmo de media",
+  "descripcion": "4×1 km a ritmo de carrera (B 5:26 · A 5:18 · C 5:39) · FC 168-176 · rec 2'\nCalentamiento: 15' fáciles a 6:20-6:55/km + 3 strides de 20\".\nPrincipal: 4×1 km a tu ritmo de carrera ya decidido (B 5:26 · A 5:18 · C 5:39), con FC 168-176 y 2' de trote suave entre bloques. En llano o pista. Pulsa vuelta en cada km y clava el ritmo: ni más rápido ni más lento.\nVuelta: 10' muy suaves y movilidad.\nPlan B: Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×1 km + 5' suaves.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 900,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 3,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 3,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 6,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 3,
+       "conditionTypeKey": "distance"
+      },
+      "endConditionValue": 1000,
+      "preferredEndConditionUnit": {
+       "unitKey": "kilometer"
+      },
+      "targetType": {
+       "workoutTargetTypeId": 6,
+       "workoutTargetTypeKey": "pace.zone"
+      },
+      "targetValueOne": 3.115265,
+      "targetValueTwo": 3.021148
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 7,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 120,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 8,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 600,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-04",
+  "nombre": "P21K · Cinta suave corta + strides (sin pierna)",
+  "descripcion": "25' a 6:20-6:55/km · FC 135-150 · 4 strides\nCalentamiento: Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco.\nPrincipal: 25' a 6:20-6:55/km con FC 135-150 (unos 3,8 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella. En la cinta al 1 % o en la calle, como prefieras.\nPrincipal: Al terminar, 4 strides de 20\": aceleraciones progresivas hasta un ritmo rápido pero suelto (no es un esprint), con 60-90\" andando entre cada uno.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si vas justo de tiempo o con nervios, 15-20' suaves sin strides, o descansa: la forma ya está hecha.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1500,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 135,
+    "targetValueTwo": 150
+   },
+   {
+    "type": "RepeatGroupDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 6,
+     "stepTypeKey": "repeat"
+    },
+    "numberOfIterations": 4,
+    "endCondition": {
+     "conditionTypeId": 7,
+     "conditionTypeKey": "iterations"
+    },
+    "endConditionValue": 4,
+    "smartRepeat": false,
+    "workoutSteps": [
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 3,
+      "stepType": {
+       "stepTypeId": 3,
+       "stepTypeKey": "interval"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 20,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     },
+     {
+      "type": "ExecutableStepDTO",
+      "stepOrder": 4,
+      "stepType": {
+       "stepTypeId": 4,
+       "stepTypeKey": "recovery"
+      },
+      "endCondition": {
+       "conditionTypeId": 2,
+       "conditionTypeKey": "time"
+      },
+      "endConditionValue": 60,
+      "targetType": {
+       "workoutTargetTypeId": 1,
+       "workoutTargetTypeKey": "no.target"
+      }
+     }
+    ]
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-07",
+  "nombre": "P21K · TotalEnergies Media Maratón Murcia Costa Cálida",
+  "descripcion": "B 1:54:59 (crucero 5:25) · A 1:51:59 (5:17) · C 1:59:59 (5:38)\nCalentamiento: Desayuno a las 6:30-7:00 (lo que ya probaste). En la zona de salida, unos 6' de trote muy suave (menos de 1 km) + movilidad + 3 aceleraciones cortas. Entra al cajón 15-20' antes de las 9:30.\nSalida: Km 1-3: 3-5 s/km más lento que tu ritmo y por debajo de 172 ppm. B: 5:29-5:30 · A: 5:21 · C: 5:42. En 2026 saliste demasiado lento (6:07 el km 1); hoy, solo unos segundos por debajo del ritmo.\nCrucero: Km 4-15: ritmo de crucero con 174-180 ppm. B: 5:25 · A: 5:17 · C: 5:38. Si con fresco pasas de 178 antes del km 10, afloja 3-5 s/km. Pasos B: 5 km 27:20 · 10 km 54:25 · 15 km 1:21:30 · 20 km 1:48:20 (A: 26:37 · 53:02 · 1:19:27 · 1:45:40).\nFinal: Km 16 a meta: libre, por encima de 180 ppm. B: 5:20-5:22 · A: 5:12-5:15 · C: 5:33-5:35. Vacía lo que quede en el último km.\nPrincipal: Geles: uno hacia el km 7-8 y otro hacia el km 14-15, con agua del avituallamiento (los mismos de los entrenos). Pulsa vuelta en cada cart…",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 1,
+     "stepTypeKey": "warmup"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 360,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 110,
+    "targetValueTwo": 140
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 3000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 6,
+     "workoutTargetTypeKey": "pace.zone"
+    },
+    "targetValueOne": 3.067485,
+    "targetValueTwo": 3.012048
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 3,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 12000,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 6,
+     "workoutTargetTypeKey": "pace.zone"
+    },
+    "targetValueOne": 3.10559,
+    "targetValueTwo": 3.04878
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 4,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 3,
+     "conditionTypeKey": "distance"
+    },
+    "endConditionValue": 6098,
+    "preferredEndConditionUnit": {
+     "unitKey": "kilometer"
+    },
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 5,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-10",
+  "nombre": "P21K · Primer trote tras la carrera",
+  "descripcion": "20' muy suaves · FC < 135\nPrincipal: 20' de trote muy suave (FC < 135, unos 2,8 km), mejor en llano o tierra. Si notas molestias, cámbialo por un paseo.\nVuelta: 5' de movilidad.\nPlan B: Paseo de 40' o 20' de bici suave.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1200,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 135
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ },
+ {
+  "fecha": "2027-02-13",
+  "nombre": "P21K · Rodaje suave por sensaciones",
+  "descripcion": "30' suaves · FC < 145 · sin mirar el ritmo\nPrincipal: 30' muy suaves por sensaciones, con la FC por debajo de 145 (unos 4,4 km). Sin reloj de ritmo: si algo molesta más de 3/10, para y anda.\nVuelta: 5' andando y 5' de movilidad de tobillos y caderas.\nPlan B: Si te notas cargado, 30' de bici o paseo.",
+  "pasos": [
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 1,
+    "stepType": {
+     "stepTypeId": 3,
+     "stepTypeKey": "interval"
+    },
+    "endCondition": {
+     "conditionTypeId": 2,
+     "conditionTypeKey": "time"
+    },
+    "endConditionValue": 1800,
+    "targetType": {
+     "workoutTargetTypeId": 4,
+     "workoutTargetTypeKey": "heart.rate.zone"
+    },
+    "targetValueOne": 120,
+    "targetValueTwo": 145
+   },
+   {
+    "type": "ExecutableStepDTO",
+    "stepOrder": 2,
+    "stepType": {
+     "stepTypeId": 2,
+     "stepTypeKey": "cooldown"
+    },
+    "endCondition": {
+     "conditionTypeId": 1,
+     "conditionTypeKey": "lap.button"
+    },
+    "endConditionValue": 0,
+    "targetType": {
+     "workoutTargetTypeId": 1,
+     "workoutTargetTypeKey": "no.target"
+    }
+   }
+  ]
+ }
+]
