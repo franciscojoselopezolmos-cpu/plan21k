@@ -394,7 +394,7 @@
         "T": 3015,
         "L": 2875
       },
-      "nota": "Umbrales del juez (B ≤ 53:10 · A ≤ 51:45 · techo ≤ 50:45 · L ≤ 48:25) con su ajuste por volumen ya aplicado: la media de las 6 semanas previas será de ~30 km/sem (< 33) y la larga, de 12,6 km (< 18), así que se piden 30 s menos para confirmar vía. Decide la columna de la S11-S12: vía B con 52:40 o menos y vía A con 51:15 o menos; si no, sigues con los ritmos de la base hasta el test de la S12. La alarma (> 55:30) no cambia."
+      "nota": "Umbrales del juez (B ≤ 53:10 · A ≤ 51:45 · techo ≤ 50:45 · L ≤ 48:25) con su ajuste por volumen ya aplicado: la media de las 6 semanas previas será de ~31 km/sem (< 33) y la larga, de 12,6 km (< 18), así que se piden 30 s menos para confirmar vía. Decide la columna de la S11-S12: vía B con 52:40 o menos y vía A con 51:15 o menos; si no, sigues con los ritmos de la base hasta el test de la S12. La alarma (> 55:30) no cambia."
     },
     {
       "semana": 12,
@@ -1675,10 +1675,10 @@
       "n": 4,
       "inicio": "2026-11-09",
       "fase": "reconstruccion",
-      "titulo": "Descarga suave",
-      "kmPlan": 26.0,
-      "descarga": true,
-      "nota": "Revisión de la S3: semana de 10. El umbral 3×6' salió a 5:41, 5:36 y 5:33 con FC 156-163, todavía por debajo de tu umbral, y la tirada de 9,7 km fue a 6:40 con FC 153: un minuto por km más rápida que hace dos semanas con el mismo pulso. Esta es la semana de descarga: menos km para asimilar, pero sin bajar el ritmo del umbral (3×5' a 5:36). El lunes, control de FC en el mismo circuito que la S1.",
+      "titulo": "Umbral 4×6' y tirada de 10,5 km",
+      "kmPlan": 32.0,
+      "descarga": false,
+      "nota": "Revisión de la S3: semana de 10. El umbral 3×6' salió a 5:41, 5:36 y 5:33 con FC 156-163, todavía por debajo de tu umbral, y la tirada de 9,7 km fue a 6:40 con FC 153: casi 40 s/km más rápida que hace dos semanas con el mismo pulso. Como del jueves 19 al domingo 22 estás en Granada, la descarga pasa a esa semana y esta sube: umbral 4×6' a 5:36 y tirada de 10,5 km. El lunes, control de FC en el mismo circuito que la S1.",
       "dias": [
         {
           "fecha": "2026-11-09",
@@ -1727,7 +1727,7 @@
             },
             {
               "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga: una serie menos por ejercicio."
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
             },
             {
               "parte": "vuelta",
@@ -1743,27 +1743,27 @@
         {
           "fecha": "2026-11-11",
           "tipo": "umbral",
-          "titulo": "Umbral suave 3×5'",
+          "titulo": "Umbral 4×6'",
           "clave": true,
-          "kmPlan": 5.6,
-          "minPlan": 37,
-          "objetivo": "3×5' a 5:36/km · FC 176-181 · rec 1'",
+          "kmPlan": 8.1,
+          "minPlan": 52,
+          "objetivo": "4×6' a 5:36/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "3×5' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "4×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
-              "texto": "5' muy suaves y movilidad."
+              "texto": "8' muy suaves y movilidad."
             }
           ],
-          "porque": "Calidad corta en la semana de descarga: mantienes el estímulo del umbral sin acumular fatiga.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×5' + 5' suaves.",
+          "porque": "El umbral es el pilar de la media. Subes de 3×6' (S3) a 4×6' a tu ritmo real de umbral: más tiempo a umbral, y la semana que viene descargas.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
@@ -1771,11 +1771,11 @@
         {
           "fecha": "2026-11-12",
           "tipo": "facil",
-          "titulo": "Gimnasio: cinta suave y fuerza",
+          "titulo": "Gimnasio: cinta suave + strides y fuerza",
           "clave": false,
-          "kmPlan": 2.1,
-          "minPlan": 15,
-          "objetivo": "15' en cinta a 6:45-7:20/km · FC 135-150 · fuerza A2d",
+          "kmPlan": 2.9,
+          "minPlan": 21,
+          "objetivo": "15' en cinta a 6:45-7:20/km · FC 135-150 · 4 strides · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1787,17 +1787,21 @@
             },
             {
               "parte": "principal",
-              "texto": "Después, sin salir del gimnasio: rutina A2d (30'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo."
+              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
+            },
+            {
+              "parte": "principal",
+              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo."
             },
             {
               "parte": "vuelta",
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave y pierna en versión de descarga. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "porque": "Cinta suave con strides y fuerza máxima: la última pierna pesada antes de la descarga y del test. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
-          "fuerza": "A2d",
-          "nutricion": "Semana de descarga",
+          "fuerza": "A2",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -1825,9 +1829,9 @@
           "tipo": "larga",
           "titulo": "Tirada larga suave",
           "clave": true,
-          "kmPlan": 8.0,
-          "minPlan": 56,
-          "objetivo": "8 km a 6:45-7:15/km · FC 135-155",
+          "kmPlan": 10.5,
+          "minPlan": 74,
+          "objetivo": "10,5 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -1835,14 +1839,14 @@
             },
             {
               "parte": "principal",
-              "texto": "8 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "10,5 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "Tirada más corta por la descarga (8 km frente a los 9,7 de la semana pasada): el cuerpo asimila las tres semanas anteriores.",
+          "porque": "Sigue la cadena de tiradas (+10 % sobre los 9,7 km de la semana pasada). Suave de verdad, con techo de 155.",
           "alternativa": "Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
           "fuerza": null,
           "nutricion": "Día de tirada larga",
@@ -1874,10 +1878,10 @@
       "n": 5,
       "inicio": "2026-11-16",
       "fase": "reconstruccion",
-      "titulo": "Umbral 4×6' y tirada en Granada",
-      "kmPlan": 31.0,
-      "descarga": false,
-      "nota": "Umbral más largo el miércoles (4×6' a 5:36): 24' frente a los 18' de la S3. El jueves, cinta suave con strides y fuerza máxima. El viernes y el sábado estás en Granada: el sábado 21, tirada suave de 10,5 km por FC; si allí no puedes, hazla el domingo 22 en casa (excepción a tu domingo libre). El test de 5K es el miércoles 25, en pista.",
+      "titulo": "Descarga y Granada",
+      "kmPlan": 27.0,
+      "descarga": true,
+      "nota": "Semana de descarga, coincidiendo con Granada (de jueves a domingo): asimilas las cuatro semanas anteriores y llegas fresco al test de 5K del miércoles 25. Lunes suave, martes de torso, miércoles umbral corto (3×5' a 5:36) y, en Granada, sin gimnasio: lo que puedas correr, suave. Si el fin de semana puedes, una tirada suave de 8 km (sábado o domingo); si no, no pasa nada.",
       "dias": [
         {
           "fecha": "2026-11-16",
@@ -1901,7 +1905,7 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 20' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Rodaje suave",
@@ -1926,7 +1930,7 @@
             },
             {
               "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga: una serie menos por ejercicio."
             },
             {
               "parte": "vuelta",
@@ -1942,27 +1946,27 @@
         {
           "fecha": "2026-11-18",
           "tipo": "umbral",
-          "titulo": "Umbral 4×6'",
+          "titulo": "Umbral suave 3×5'",
           "clave": true,
-          "kmPlan": 8.1,
-          "minPlan": 52,
-          "objetivo": "4×6' a 5:36/km · FC 176-181 · rec 1'",
+          "kmPlan": 5.6,
+          "minPlan": 37,
+          "objetivo": "3×5' a 5:36/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+              "texto": "10' fáciles a 6:45-7:20/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "4×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "3×5' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
+              "texto": "5' muy suaves y movilidad."
             }
           ],
-          "porque": "El umbral es el pilar de la media. Subes de 3×6' (S3) a 4×6' a tu ritmo real de umbral: más tiempo a umbral a una semana del test.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
+          "porque": "Calidad corta en la semana de descarga: mantienes el estímulo del umbral sin acumular fatiga, a una semana del test.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×5' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
@@ -1970,37 +1974,29 @@
         {
           "fecha": "2026-11-19",
           "tipo": "facil",
-          "titulo": "Gimnasio: cinta suave + strides y fuerza",
+          "titulo": "Rodaje suave opcional (Granada)",
           "clave": false,
-          "kmPlan": 2.9,
-          "minPlan": 21,
-          "objetivo": "15' en cinta a 6:45-7:20/km · FC 135-150 · 4 strides · fuerza A2",
+          "kmPlan": 4.3,
+          "minPlan": 30,
+          "objetivo": "30' a 6:45-7:20/km · FC 135-150",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "En la cinta al 1 % de inclinación: los primeros 5' más suaves todavía, para que la FC suba poco a poco."
+              "texto": "Los primeros 5' (dentro del tiempo total) más suaves todavía, para que la FC suba poco a poco."
             },
             {
               "parte": "principal",
-              "texto": "15' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150, unos 2,1 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
-            },
-            {
-              "parte": "principal",
-              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo."
+              "texto": "30' a 6:45-7:20/km con FC 135-150 (unos 4,3 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
-              "texto": "5' de estiramientos suaves al acabar la fuerza."
+              "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Cinta suave con strides y fuerza máxima: el sábado la tirada es suave y el test llega el miércoles 25, con margen de sobra. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
-          "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
-          "fuerza": "A2",
-          "nutricion": "Día de fuerza",
+          "porque": "En Granada no hay gimnasio esta semana: si te apetece, 30' suaves por FC. Si no, descansa: es semana de descarga.",
+          "alternativa": "Si no puedes correr, descanso. No la recuperes otro día.",
+          "fuerza": null,
+          "nutricion": "Rodaje suave",
           "geles": false
         },
         {
@@ -2017,10 +2013,10 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Viernes de descanso (día de viaje a Granada): llegas fresco a la tirada del sábado.",
+          "porque": "Viernes de descanso (Granada).",
           "alternativa": null,
           "fuerza": null,
-          "nutricion": "Víspera de tirada larga",
+          "nutricion": "Semana de descarga",
           "geles": false
         },
         {
@@ -2028,9 +2024,9 @@
           "tipo": "larga",
           "titulo": "Tirada larga suave",
           "clave": true,
-          "kmPlan": 10.5,
-          "minPlan": 74,
-          "objetivo": "10,5 km a 6:45-7:15/km · FC 135-155",
+          "kmPlan": 8.0,
+          "minPlan": 56,
+          "objetivo": "8 km a 6:45-7:15/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2038,15 +2034,15 @@
             },
             {
               "parte": "principal",
-              "texto": "10,5 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "8 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "Sigue la cadena de tiradas (+10 % sobre los 9,6 km de la S3) mientras estás fuera. Suave de verdad: el miércoles hay test de 5K.",
-          "alternativa": "Si en Granada no puedes, hazla el domingo 22 en casa (excepción a tu domingo libre) y hoy descansa: sigue siendo un solo día de fin de semana. Busca un recorrido llano y manda la FC aunque el ritmo salga lento. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+          "porque": "Tirada corta de descarga, solo si puedes. Mantiene la cadena de tiradas sin cansarte antes del test del miércoles 25.",
+          "alternativa": "Si el sábado no puedes, hazla el domingo 22 al volver (excepción a tu domingo libre). Si tampoco, sáltatela: es semana de descarga y el test es lo importante.",
           "fuerza": null,
           "nutricion": "Día de tirada larga",
           "geles": false
@@ -2065,7 +2061,7 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Domingo de descanso: el miércoles hay test de 5K y antes van un lunes suave y un martes de torso.",
+          "porque": "Domingo de descanso, salvo que la tirada haya pasado a hoy. El miércoles hay test de 5K.",
           "alternativa": null,
           "fuerza": null,
           "nutricion": "Día de descanso",
@@ -2675,7 +2671,7 @@
             },
             {
               "parte": "principal",
-              "texto": "Cómo se lee: hasta aquí habrás promediado unos 30 km/semana y tu tirada más larga será de 12,6 km, así que el juez pide 30 s menos para confirmar vía. Vía B: 52:40 o menos; vía A: 51:15 o menos. Entre 52:41 y 55:30, sigues con los ritmos de la base hasta el test de la S12."
+              "texto": "Cómo se lee: hasta aquí habrás promediado unos 31 km/semana y tu tirada más larga será de 12,6 km, así que el juez pide 30 s menos para confirmar vía. Vía B: 52:40 o menos; vía A: 51:15 o menos. Entre 52:41 y 55:30, sigues con los ritmos de la base hasta el test de la S12."
             },
             {
               "parte": "vuelta",
