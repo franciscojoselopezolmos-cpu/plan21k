@@ -30,7 +30,7 @@
       "tiempo": "1:54:59",
       "ritmo": "5:26",
       "probabilidad": "~60 %",
-      "descripcion": "Bajar de 1:55. Es la vía con la que entrenas desde la S11 si el 10K de la S8 la confirma (≤ 52:40 con el ajuste por volumen). Se confirma con un 10K ≤ 52:10 en la S12 y la simulación a 5:26. En carrera: 5:29-5:30 y crucero a 5:25."
+      "descripcion": "Bajar de 1:55. Es la vía con la que entrenas desde la S11 si el 5K de la S7 la confirma (≤ 25:15, un 10K de 52:40 con Riegel). Se confirma con un 10K ≤ 52:10 en la S12 y la simulación a 5:26. En carrera: 5:29-5:30 y crucero a 5:25."
     },
     {
       "id": "C",
@@ -99,8 +99,8 @@
     {
       "id": "s1-5",
       "desde": "2026-10-15",
-      "hasta": "2026-12-13",
-      "nombre": "Reconstrucción y vuelta (VDOT ~35,5; hasta el 10K de La Manga del 13-dic)",
+      "hasta": "2026-12-02",
+      "nombre": "Reconstrucción (VDOT ~35,5; hasta el test 5K del 2-dic)",
       "tabla": [
         {
           "tipo": "Recuperación",
@@ -151,9 +151,9 @@
     },
     {
       "id": "s6-10",
-      "desde": "2026-12-14",
+      "desde": "2026-12-03",
       "hasta": "2026-12-27",
-      "nombre": "Base (VDOT ~37) si el 10K de La Manga sale en 54:20 o menos; si no, sigue la columna anterior",
+      "nombre": "Base (VDOT ~37) si el test 5K del 2-dic sale en 26:10 o menos; si no, sigue la columna anterior",
       "tabla": [
         {
           "tipo": "Recuperación",
@@ -206,7 +206,7 @@
       "id": "s11-16",
       "desde": "2026-12-28",
       "hasta": "2027-02-07",
-      "nombre": "Específica · vía B (VDOT ~38,3) si el 10K de la S8 la confirmó (si no, sigue con la tabla de la base hasta el test de la S12); vía A solo si los tests la confirman",
+      "nombre": "Específica · vía B (VDOT ~38,3) si el 5K de la S7 la confirmó (si no, sigue con la tabla de la base hasta el test de la S12); vía A solo si los tests la confirman",
       "tabla": [
         {
           "tipo": "Recuperación",
@@ -311,7 +311,7 @@
         6,
         10
       ],
-      "descripcion": "Subir hasta ~40 km por semana con umbral semanal el miércoles, tiradas de 12 a 16,6 km, primeros finales a ritmo maratón y primeras series de VO2máx; en Navidad (S10), tempo moderado el lunes como calidad secundaria. La S6 se perdió por fiebre (sin test 5K): el test es el 10K de La Manga (S8). Torso el martes y pierna en fuerza máxima con pliometría el jueves, tras una cinta suave."
+      "descripcion": "Subir hasta ~40 km por semana con umbral semanal el miércoles, tiradas de 12,1 a 16,6 km, primeros finales a ritmo maratón y primeras series de VO2máx; en Navidad (S10), tempo moderado el lunes como calidad secundaria. La S6 se perdió por fiebre: el test 5K en pista pasa al miércoles de la S7 y el 10K de La Manga desaparece. Torso el martes y pierna en fuerza máxima con pliometría el jueves, tras una cinta suave."
     },
     {
       "id": "especifica",
@@ -343,31 +343,31 @@
   ],
   "tests": [
     {
-      "semana": 8,
-      "fecha": "2026-12-13",
-      "hora": "12:00",
-      "nombre": "IX Mar Menor Running Challenge (10K)",
-      "distancia": "10K",
-      "distanciaKm": 10,
-      "lugar": "La Manga del Mar Menor",
-      "url": "https://www.alcanzatumeta.es/ix-mar-menor-running-la-manga-2026",
-      "inscripcion": "10K: 20 € fed. / 22 € no fed. Plazo hasta el jue 10-dic a las 23:59 o fin de plazas.",
+      "semana": 7,
+      "fecha": "2026-12-02",
+      "hora": "por confirmar",
+      "nombre": "Test 5K en pista (en solitario)",
+      "distancia": "5K",
+      "distanciaKm": 5,
+      "lugar": "pista (en solitario)",
+      "url": null,
+      "inscripcion": "No necesita inscripción.",
       "umbrales": {
-        "alarma": "> 55:30",
-        "C": "52:41-55:30",
-        "B": "≤ 52:40",
-        "A": "≤ 51:15",
-        "T": "≤ 50:15",
-        "L": "≤ 47:55"
+        "alarma": "> 27:20",
+        "C": "26:11-27:20",
+        "B": "≤ 26:10",
+        "A": "≤ 25:25",
+        "T": "≤ 24:55",
+        "L": "≤ 23:45"
       },
       "segundos": {
-        "alarma": 3330,
-        "B": 3160,
-        "A": 3075,
-        "T": 3015,
-        "L": 2875
+        "alarma": 1640,
+        "B": 1570,
+        "A": 1525,
+        "T": 1495,
+        "L": 1425
       },
-      "nota": "Umbrales del juez (B ≤ 53:10 · A ≤ 51:45 · techo ≤ 50:45 · L ≤ 48:25) con su ajuste por volumen ya aplicado: la media de las 6 semanas previas será de ~25 km/sem (< 33) y la larga, de 12 km (< 18), así que se piden 30 s menos para confirmar vía. Sustituye también al 5K de la S6, suspendido por fiebre: con 54:20 o menos, la S9-S10 pasa a la columna de la base (VDOT ~37). Decide la columna de la S11-S12: vía B con {mmss(T10_S8['B'])} o menos y vía A con 51:15 o menos; si no, sigues con los ritmos de la base hasta el test de la S12. La alarma (> 55:30) no cambia."
+      "nota": "Iba el 25-nov y pasó al miércoles 2-dic por la fiebre; el 10K de La Manga desaparece, así que este es el único test hasta la S12. Al salir del trabajo, en lugar de la calidad. Cuenta solo si es en pista, con menos de 15 °C, sin viento fuerte, con dos días suaves antes y una semana sin fiebre. Con 26:10 o menos, ritmos de la base (VDOT ~37) desde el jue 3-dic; con 25:15 o menos (un 10K de 52:40 con Riegel), vía B desde la S11; con 24:35 o menos, vía A. Si ese miércoles no se dan las condiciones, pásalo al jue 3-dic y ese día no hay pierna. Sin pista: TT30 en llano (30' a tope): alarma < 5,47 km · B ≥ 5,70 km · A ≥ 5,85 km."
     },
     {
       "semana": 12,
@@ -394,7 +394,7 @@
         "T": 2679,
         "L": 2558
       },
-      "nota": "Umbrales del 9K convertidos con Riegel (exponente 1,06) desde los del 10K del juez. Para la regla del ritmo de carrera, pasa tu tiempo del 9K a 10K multiplicándolo por 1,118 (unos 2 s/km más lento). Si el 9K no se confirma: test de 10K en pista (sáb 9 o dom 10) con alarma > 54:30 · B ≤ 52:10 · A ≤ 50:50 · techo ≤ 49:55 · L ≤ 47:40. Si sigues el plan, la media de las 6 semanas previas será ~33 km y la larga de 18 km: no hace falta el ajuste por volumen."
+      "nota": "Umbrales del 9K convertidos con Riegel (exponente 1,06) desde los del 10K del juez. Para la regla del ritmo de carrera, pasa tu tiempo del 9K a 10K multiplicándolo por 1,118 (unos 2 s/km más lento). Si el 9K no se confirma: test de 10K en pista (sáb 9 o dom 10) con alarma > 54:30 · B ≤ 52:10 · A ≤ 50:50 · techo ≤ 49:55 · L ≤ 47:40. Si sigues el plan, la media de las 6 semanas previas será ~34 km y la larga de 18 km: no hace falta el ajuste por volumen."
     },
     {
       "semana": 14,
@@ -426,7 +426,7 @@
   "fuerza": {
     "A2": {
       "nombre": "Fuerza · Fuerza máxima (pierna pesada + pliometría)",
-      "fase": "Fuerza máxima (S1-S3, S5-S7 y S9-S11, jueves; en las descargas S4 y S8, la versión A2d)",
+      "fase": "Fuerza máxima (jueves, S1-S11; en la descarga de la S4, la versión A2d)",
       "duracionMin": 40,
       "calentamiento": "Vienes caliente de la cinta: 3' de movilidad de cadera y tobillo y 2 series de aproximación del primer ejercicio pesado (al 50 % y al 70 %). La pliometría va antes de las pesas, con las piernas frescas.",
       "nota": "Una sola sesión pesada de pierna a la semana: con tu experiencia (y meses sin dejar el gimnasio) basta para mantener y mejorar la fuerza (en Rønnestad 2010, una sesión semanal mantuvo lo ganado). Desde la S1, sin fase de adaptación: si alguna semana te notas cargado de la calidad del miércoles, deja RIR 3. Sube la carga solo si todas las series salen con RIR 2 o más, y nunca en la semana de más km. Si el sábado lleva bloques a ritmo o el domingo hay test, quita 1 serie de sentadilla y de peso muerto y deja RIR 3.",
@@ -494,10 +494,10 @@
     },
     "A2d": {
       "nombre": "Fuerza · Fuerza máxima (descarga)",
-      "fase": "Descargas S4 y S8 (jueves)",
+      "fase": "Descargas (jueves)",
       "duracionMin": 30,
       "calentamiento": "Vienes caliente de la cinta: 3' de movilidad de cadera y tobillo y 2 series de aproximación del primer ejercicio pesado (al 50 % y al 70 %). La pliometría va antes de las pesas, con las piernas frescas.",
-      "nota": "Volumen al 50-60 %: menos series, misma carga o algo menos (75-80 %). En la S8 hay test el domingo: todo con RIR 3.",
+      "nota": "Volumen al 50-60 %: menos series, misma carga o algo menos (75-80 %). Si hay test cerca, todo con RIR 3.",
       "ejercicios": [
         {
           "nombre": "Pogo jumps",
@@ -727,7 +727,7 @@
       "fase": "Torso (S2-S15, martes; en la S1, el miércoles 21; en la S16, la versión ligera TL el martes)",
       "duracionMin": 45,
       "calentamiento": "Si vienes de la cinta, 3' de movilidad de hombros con goma (rotaciones y aperturas); si no, 5' de remo o elíptica suave antes. Después, 1-2 series de aproximación del primer ejercicio.",
-      "nota": "Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test (S6, S8 y S12). Esta es una referencia de ~40-45': tirón y empuje, horizontal y vertical, y core antirrotación, con RIR 1-2. Nada de pierna: la pierna es el jueves.",
+      "nota": "Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test (S7 y S12). Esta es una referencia de ~40-45': tirón y empuje, horizontal y vertical, y core antirrotación, con RIR 1-2. Nada de pierna: la pierna es el jueves.",
       "ejercicios": [
         {
           "nombre": "Dominadas (o jalón al pecho)",
@@ -865,12 +865,12 @@
     {
       "id": "semana-tipo",
       "titulo": "Tu semana tipo",
-      "texto": "Alternas correr y gimnasio (desde la S2; la S1 sigue con calidad el martes y torso el miércoles). Lunes: rodaje suave en la calle (Z2), 30-60', con strides algunas semanas; en la base y la específica, algún lunes lleva la calidad secundaria (subumbral, tempo moderado o ritmo de media corto), siempre a 48 h o más de la tirada del sábado y nunca después de un test en domingo. Martes: gimnasio de torso (rutina T, ~45'), con una cinta opcional de 20-30' suaves antes desde la S3 (75' como mucho entre las dos): la cinta es lo prescindible de la semana; si vas cansado o el trabajo se alarga, quítala sin remordimientos (en la S2, solo torso). Miércoles: la calidad principal (series, fartlek, umbral o ritmo de media), en pista o llano y sin gimnasio. Jueves: gimnasio de pierna, primero la cinta al 1 %, siempre suave porque viene después de la calidad (como mucho 45', con strides o cuestas cortas de 10\"), y después la fuerza de pierna (como mucho 40'). Viernes: descanso. Sábado: tirada larga por la mañana. Domingo: descanso. Las semanas con test en domingo (S8 y S12) o con la carrera, el miércoles lleva una calidad moderada y el sábado se descansa (o activación opcional de 15-20'): nunca dos días fuertes seguidos en el fin de semana. El test 5K de la S6 (miércoles 25-nov) se suspendió por fiebre. Un lunes con calidad y el miércoles de calidad quedan separados por el martes de torso, que no toca las piernas."
+      "texto": "Alternas correr y gimnasio (desde la S2; la S1 sigue con calidad el martes y torso el miércoles). Lunes: rodaje suave en la calle (Z2), 30-60', con strides algunas semanas; en la base y la específica, algún lunes lleva la calidad secundaria (subumbral, tempo moderado o ritmo de media corto), siempre a 48 h o más de la tirada del sábado y nunca después de un test en domingo. Martes: gimnasio de torso (rutina T, ~45'), con una cinta opcional de 20-30' suaves antes desde la S3 (75' como mucho entre las dos): la cinta es lo prescindible de la semana; si vas cansado o el trabajo se alarga, quítala sin remordimientos (en la S2, solo torso). Miércoles: la calidad principal (series, fartlek, umbral o ritmo de media), en pista o llano y sin gimnasio. Jueves: gimnasio de pierna, primero la cinta al 1 %, siempre suave porque viene después de la calidad (como mucho 45', con strides o cuestas cortas de 10\"), y después la fuerza de pierna (como mucho 40'). Viernes: descanso. Sábado: tirada larga por la mañana. Domingo: descanso. Las semanas con test en domingo (S12) o con la carrera, el miércoles lleva una calidad moderada y el sábado se descansa (o activación opcional de 15-20'): nunca dos días fuertes seguidos en el fin de semana. El test 5K, por la fiebre, pasa al miércoles 2-dic (S7), en lugar de la calidad, y esa semana sí hay tirada. Un lunes con calidad y el miércoles de calidad quedan separados por el martes de torso, que no toca las piernas."
     },
     {
       "id": "regla-de-oro",
       "titulo": "Regla de oro: entrena al nivel demostrado",
-      "texto": "Entrenas con los ritmos que confirmó tu último test, nunca con los del objetivo. Hasta el 10K de La Manga del 13-dic, columna VDOT ~35,5 (el 5K del 25-nov se suspendió por fiebre); del 14-dic al 27-dic, VDOT ~37 si ese 10K sale en 54:20 o menos (si no, sigues en la anterior); desde el 28-dic, vía B si el 10K de la S8 la confirmó (52:40 o menos, ya con el ajuste por volumen); si no, sigues con los ritmos de la base hasta el test de la S12. La vía A solo si la confirman el 10K de la S8 (para la S11-S12) o el test de la S12 (para la S13-S16)."
+      "texto": "Entrenas con los ritmos que confirmó tu último test, nunca con los del objetivo. Hasta el test 5K del 2-dic, columna VDOT ~35,5; del 3-dic al 27-dic, VDOT ~37 si el 5K sale en 26:10 o menos (si no, sigues en la anterior); desde el 28-dic, vía B si el 5K de la S7 la confirmó (25:15 o menos); si no, sigues con los ritmos de la base hasta el test de la S12. La vía A solo si la confirman el 5K de la S7 (24:35 o menos, para la S11-S12) o el test de la S12 (para la S13-S16)."
     },
     {
       "id": "regla-tirada",
@@ -2049,7 +2049,7 @@
       "titulo": "Fiebre: semana de reposo",
       "kmPlan": 4.5,
       "descarga": false,
-      "nota": "Fiebre de 39 la noche del lunes 23: semana de reposo y test de 5K suspendido. Ni correr ni gimnasio hasta que lleves 48 h sin fiebre y sin antitérmicos. Si todo va bien, el sábado 28, 30' muy suaves para ver cómo responde el cuerpo. Nada intenso (umbral, series ni test) hasta una semana después de la última fiebre. Si la fiebre dura más de 3 días o notas dolor en el pecho, palpitaciones o falta de aire, al médico. Tus ritmos nuevos se confirman con el 10K de La Manga del domingo 13-dic; hasta entonces, los de ahora.",
+      "nota": "Fiebre de 39 la noche del lunes 23: semana de reposo. El plan se corre una semana: el test de 5K pasa al miércoles 2-dic y el 10K de La Manga desaparece. Ni correr ni gimnasio hasta que lleves 48 h sin fiebre y sin antitérmicos. Si todo va bien, el sábado 28, 30' muy suaves para ver cómo responde el cuerpo. Si la fiebre dura más de 3 días o notas dolor en el pecho, palpitaciones o falta de aire, al médico.",
       "dias": [
         {
           "fecha": "2026-11-23",
@@ -2094,7 +2094,7 @@
         {
           "fecha": "2026-11-25",
           "tipo": "descanso",
-          "titulo": "Descanso (test 5K suspendido)",
+          "titulo": "Descanso (el test pasa al 2-dic)",
           "clave": false,
           "kmPlan": 0.0,
           "minPlan": 0,
@@ -2102,10 +2102,10 @@
           "bloques": [
             {
               "parte": "principal",
-              "texto": "Hoy tocaba el test de 5K y se suspende: con fiebre reciente no mide tu forma y te puede hacer daño. Reposo y mucha agua."
+              "texto": "Hoy tocaba el test de 5K: pasa al miércoles 2-dic. Con fiebre reciente no mide tu forma y te puede hacer daño. Reposo y mucha agua."
             }
           ],
-          "porque": "Tus ritmos se confirman con el 10K de La Manga. Hasta entonces sigues con los de ahora, que tus umbrales ya clavaban.",
+          "porque": "Una semana más tarde llegas sano y con dos rodajes en las piernas: el test medirá tu forma de verdad.",
           "alternativa": null,
           "fuerza": null,
           "nutricion": "Enfermo o con fiebre",
@@ -2193,7 +2193,7 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Domingo de descanso, salvo que el rodaje de vuelta haya pasado a hoy. Revisamos la semana y ajustamos la S7 según cómo estés.",
+          "porque": "Domingo de descanso, salvo que el rodaje de vuelta haya pasado a hoy. Revisamos cómo has respondido antes del test del miércoles.",
           "alternativa": null,
           "fuerza": null,
           "nutricion": "Día de descanso",
@@ -2205,10 +2205,10 @@
       "n": 7,
       "inicio": "2026-11-30",
       "fase": "base",
-      "titulo": "Vuelta tras la fiebre",
-      "kmPlan": 35.0,
+      "titulo": "Test 5K y arranca la base",
+      "kmPlan": 38.5,
       "descarga": false,
-      "nota": "Semana normal si ya estás bien, con los ritmos de ahora: sin test, los nuevos esperan al 10K de La Manga. El miércoles, umbral 4×6' a 5:36 (lo hiciste en la S4), solo si llevas una semana sin fiebre y te encuentras bien; si no, 40' suaves. La tirada vuelve a 12 km, fácil y sin final a ritmo. Inscríbete al 10K de La Manga (plazo hasta el 10-dic).",
+      "nota": "Test de 5K el miércoles 2-dic, a tope en pista y en solitario, en lugar de la calidad: el lunes, rodaje suave, y el martes, torso sin fallo con una cinta corta y opcional. Primer km a 5:05-5:10 y a por 25:00-25:30: una semana de fiebre se nota. Solo si llevas una semana sin fiebre y los rodajes del sábado y el lunes salieron normales; si no, lo hablamos y lo movemos. Desde el jueves 3, ritmos nuevos (VDOT ~37); si el 5K sale por encima de 26:10, quédate con la columna anterior. Tras el test no hay más calidad esta semana: jueves de cinta suave y pierna, y 12 km fáciles el sábado.",
       "dias": [
         {
           "fecha": "2026-11-30",
@@ -2232,7 +2232,7 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
+          "porque": "Rodaje suave dos días antes del test: suma fondo sin cansar y te confirma que la fiebre quedó atrás. Nada de strides ni cambios.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Rodaje suave",
@@ -2257,14 +2257,14 @@
             },
             {
               "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Víspera del test: todo con RIR 3, nada de fallo en dorsales ni hombros."
             },
             {
               "parte": "vuelta",
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
+          "porque": "Víspera del test: cinta suave y opcional y tu torso, que no toca las piernas. Si vas justo o con nervios, quita la cinta.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
           "nutricion": "Víspera de series o tempo",
@@ -2272,28 +2272,36 @@
         },
         {
           "fecha": "2026-12-02",
-          "tipo": "umbral",
-          "titulo": "Umbral 4×6'",
+          "tipo": "test",
+          "titulo": "Test 5K en pista (en solitario)",
           "clave": true,
-          "kmPlan": 8.1,
-          "minPlan": 52,
-          "objetivo": "4×6' a 5:36/km · FC 176-181 · rec 1'",
+          "kmPlan": 10.5,
+          "minPlan": 69,
+          "objetivo": "5K: B ≤ 26:10 · A ≤ 25:25 · alarma > 27:20",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+              "texto": "20' muy suaves (unos 2,8 km) + movilidad + 4 strides de 20\". Al salir del trabajo: merienda ligera 1,5-2 h antes y nada pesado en la comida."
             },
             {
               "parte": "principal",
-              "texto": "4×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "5K a tope pero repartido, en solitario: 12 vueltas y media a la calle 1 (pulsa vuelta en cada km). El km 1 a unos 5:05-5:10 (2:02-2:04 por 400 m), sin salir a lo loco; los km 2-4 constantes y el último con todo lo que quede. Apunta el tiempo final y la FC media."
+            },
+            {
+              "parte": "principal",
+              "texto": "Cuenta para recalibrar si hay menos de 15 °C, sin viento fuerte, llegas con dos días suaves y llevas una semana sin fiebre. Solo cuesta más que en carrera: no te cebes en el primer km y aprieta en el último."
+            },
+            {
+              "parte": "principal",
+              "texto": "Cómo se lee: con 26:10 o menos, ritmos de la base (VDOT ~37) desde el jueves; con 25:15 o menos, además, vía B desde la S11 (con 24:35 o menos, vía A). Por encima de 26:10, sigues con los ritmos de ahora."
             },
             {
               "parte": "vuelta",
-              "texto": "8' muy suaves y movilidad."
+              "texto": "17' de trote muy suave (unos 2,4 km): forman parte del entrenamiento del día."
             }
           ],
-          "porque": "Vuelves a la calidad con una sesión que ya conoces (la de la S4), a una semana de la fiebre: recuperas el estímulo sin buscar marca. Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×6' + 5' suaves.",
+          "porque": "Mide tu forma real tras la reconstrucción y la fiebre: con este tiempo se fijan los ritmos de diciembre y la vía con la que empiezas la específica. Hoy sustituye a la calidad del miércoles.",
+          "alternativa": "Si hoy hay viento fuerte o lluvia, o no puedes ir a la pista: 30' suaves y el test pasa al jueves 3, con el mismo calentamiento y sin pierna ese día (esa semana se pierde). Sin pista: TT30 en llano (30' a tope; B ≥ 5,70 km, A ≥ 5,85 km).",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
@@ -2301,11 +2309,11 @@
         {
           "fecha": "2026-12-03",
           "tipo": "facil",
-          "titulo": "Gimnasio: cinta suave + strides y fuerza",
+          "titulo": "Gimnasio: cinta suave y fuerza",
           "clave": false,
-          "kmPlan": 5.0,
-          "minPlan": 36,
-          "objetivo": "30' en cinta a 6:45-7:20/km · FC 135-150 · 4 strides · fuerza A2",
+          "kmPlan": 5.9,
+          "minPlan": 40,
+          "objetivo": "40' en cinta a 6:30-7:10/km · FC 135-150 · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2313,22 +2321,18 @@
             },
             {
               "parte": "principal",
-              "texto": "30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150, unos 4,3 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
+              "texto": "40' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 5,9 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
             },
             {
               "parte": "principal",
-              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
-            },
-            {
-              "parte": "principal",
-              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Primera pierna tras la fiebre: una serie menos de sentadilla y de peso muerto."
+              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Primera pierna tras la fiebre: si vas cargado del test, todo con RIR 3."
             },
             {
               "parte": "vuelta",
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave con strides y pierna pesada al día siguiente del umbral: la primera pierna tras la fiebre. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "porque": "El día después del test: cinta suave, ya con los ritmos nuevos, y pierna pesada. Tras un 5K, la calidad no vuelve hasta el segundo día: esta semana ya no hay más. Si el 5K salió por encima de 26:10, la cinta a 6:45-7:20/km. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
           "fuerza": "A2",
           "nutricion": "Día de fuerza",
@@ -2359,9 +2363,9 @@
           "tipo": "larga",
           "titulo": "Tirada larga fácil",
           "clave": true,
-          "kmPlan": 12.0,
-          "minPlan": 84,
-          "objetivo": "12 km a 6:45-7:15/km · FC 135-155",
+          "kmPlan": 12.1,
+          "minPlan": 82,
+          "objetivo": "12,1 km a 6:30-7:05/km · FC 135-155",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2369,14 +2373,14 @@
             },
             {
               "parte": "principal",
-              "texto": "12 km continuos a 6:45-7:15/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "12,1 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
               "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
             }
           ],
-          "porque": "Retomas la cadena de tiradas un poco por encima de los 11 km del 15-nov. Sin final a ritmo: es la semana de vuelta.",
+          "porque": "Retomas la cadena de tiradas un poco por encima de los 11 km del 15-nov. Construye la resistencia que te faltó en junio. Ir suave de verdad es lo que te deja sumar kilómetros sin romperte.",
           "alternativa": "Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
           "fuerza": null,
           "nutricion": "Día de tirada larga",
@@ -2408,19 +2412,19 @@
       "n": 8,
       "inicio": "2026-12-07",
       "fase": "base",
-      "titulo": "Descarga y 10K en La Manga",
-      "kmPlan": 33.5,
-      "descarga": true,
-      "nota": "Descarga con test: el martes 8 es festivo (si el gimnasio cierra, torso en casa o se pierde), umbral corto el miércoles, jueves de cinta suave y fuerza de descarga, y el domingo 10K del Mar Menor Running Challenge a las 12:00. El sábado, descanso (o 15-20' de activación si te apetece). Como el 5K se perdió por la fiebre, este 10K decide también los ritmos de la S9-S10.",
+      "titulo": "Final a ritmo maratón",
+      "kmPlan": 36.5,
+      "descarga": false,
+      "nota": "Umbral 4×7' el miércoles y la tirada termina con 2 km a ritmo maratón: la primera vez que corres rápido con las piernas cansadas. Por eso en el gimnasio del jueves quitas una serie de sentadilla y de peso muerto. El martes 8 es festivo: si el gimnasio cierra, torso en casa o se pierde.",
       "dias": [
         {
           "fecha": "2026-12-07",
           "tipo": "facil",
           "titulo": "Rodaje suave",
           "clave": false,
-          "kmPlan": 5.0,
+          "kmPlan": 5.1,
           "minPlan": 35,
-          "objetivo": "35' a 6:45-7:20/km · FC 135-150",
+          "objetivo": "35' a 6:30-7:10/km · FC 135-150",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2428,7 +2432,7 @@
             },
             {
               "parte": "principal",
-              "texto": "35' a 6:45-7:20/km con FC 135-150 (unos 5 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "35' a 6:30-7:10/km con FC 135-150 (unos 5,1 km). Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "vuelta",
@@ -2446,9 +2450,9 @@
           "tipo": "facil",
           "titulo": "Gimnasio: cinta opcional (prescindible) y torso",
           "clave": false,
-          "kmPlan": 4.3,
+          "kmPlan": 4.4,
           "minPlan": 30,
-          "objetivo": "30' en cinta a 6:45-7:20/km (opcional, 20-30') · FC 135-150 · torso T",
+          "objetivo": "30' en cinta a 6:30-7:10/km (opcional, 20-30') · FC 135-150 · torso T",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2456,11 +2460,11 @@
             },
             {
               "parte": "principal",
-              "texto": "20-30' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150 (con 30', unos 4,3 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
+              "texto": "20-30' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150 (con 30', unos 4,4 km). Es opcional: sustituye al rodaje corto en la calle y es lo primero que se quita de la semana."
             },
             {
               "parte": "principal",
-              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test. Semana de descarga y de test: una serie menos por ejercicio y nada de fallo en dorsales ni hombros."
+              "texto": "Después, torso (rutina T, ~45'): tirón y empuje, horizontal y vertical, y core antirrotación. Tu rutina habitual de torso vale; evita el fallo en dorsales y hombros las semanas de test."
             },
             {
               "parte": "vuelta",
@@ -2476,27 +2480,27 @@
         {
           "fecha": "2026-12-09",
           "tipo": "umbral",
-          "titulo": "Umbral corto 3×6'",
+          "titulo": "Umbral 4×7'",
           "clave": true,
-          "kmPlan": 6.9,
-          "minPlan": 45,
-          "objetivo": "3×6' a 5:36/km · FC 176-181 · rec 1'",
+          "kmPlan": 9.1,
+          "minPlan": 56,
+          "objetivo": "4×7' a 5:25/km · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
-              "texto": "12' fáciles a 6:45-7:20/km + 3 strides de 20\"."
+              "texto": "12' fáciles a 6:30-7:10/km + 3 strides de 20\"."
             },
             {
               "parte": "principal",
-              "texto": "3×6' a 5:36/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
+              "texto": "4×7' a 5:25/km, con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras."
             },
             {
               "parte": "vuelta",
               "texto": "8' muy suaves y movilidad."
             }
           ],
-          "porque": "Calidad corta para no perder el estímulo en la semana de descarga y llegar fresco al 10K del domingo.",
-          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×6' + 5' suaves.",
+          "porque": "Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
+          "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 3×7' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
           "geles": false
@@ -2506,9 +2510,9 @@
           "tipo": "facil",
           "titulo": "Gimnasio: cinta suave + strides y fuerza",
           "clave": false,
-          "kmPlan": 3.6,
-          "minPlan": 26,
-          "objetivo": "20' en cinta a 6:45-7:20/km · FC 135-150 · 4 strides · fuerza A2d",
+          "kmPlan": 4.8,
+          "minPlan": 34,
+          "objetivo": "25' en cinta a 6:30-7:10/km · FC 135-150 · 6 strides · fuerza A2",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2516,25 +2520,25 @@
             },
             {
               "parte": "principal",
-              "texto": "20' a 6:45-7:20/km (8,2-8,9 km/h) con FC 135-150, unos 2,9 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
+              "texto": "25' a 6:30-7:10/km (8,4-9,2 km/h) con FC 135-150, unos 3,7 km. En el gimnasio hace calor: si la FC pasa de 150, baja la velocidad."
             },
             {
               "parte": "principal",
-              "texto": "Al terminar, 4 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
+              "texto": "Al terminar, 6 strides en la cinta: sube la velocidad hasta un ritmo rápido pero suelto (no es un esprint), mantenlo unos 20\" y bájala; 60-90\" andando entre cada uno."
             },
             {
               "parte": "principal",
-              "texto": "Después, sin salir del gimnasio: rutina A2d (30'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo."
+              "texto": "Después, sin salir del gimnasio: rutina A2 (40'). Primero la pliometría y luego las pesas; el tren superior, solo si te sobra tiempo. Esta semana, una serie menos de sentadilla y de peso muerto: el sábado hay final a ritmo."
             },
             {
               "parte": "vuelta",
               "texto": "5' de estiramientos suaves al acabar la fuerza."
             }
           ],
-          "porque": "Cinta suave y fuerza de descarga: mantienes el estímulo sin cansarte antes del 10K. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
+          "porque": "Cinta fácil al día siguiente del umbral y con el sábado de final a ritmo: nunca dos sesiones duras seguidas. Con más de 10 años de pesas y meses yendo al gimnasio, una sesión pesada de pierna a la semana te basta para mantener y mejorar tu fuerza sin quitarte piernas para correr; el torso va en su propio día.",
           "alternativa": "Si no puedes ir al gimnasio: la misma carrera en la calle (en llano) y, en casa, sentadilla, zancada inversa, puente de glúteo a una pierna, gemelo y plancha (2×12-15). Si vas justo de tiempo: la cinta y la versión de 20' de la fuerza (los 3 ejercicios principales × 2 series).",
-          "fuerza": "A2d",
-          "nutricion": "Semana de descarga",
+          "fuerza": "A2",
+          "nutricion": "Día de fuerza",
           "geles": false
         },
         {
@@ -2551,16 +2555,48 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Viernes de descanso: dos días suaves antes del test.",
+          "porque": "Viernes de descanso: llegas fresco a la tirada del sábado.",
           "alternativa": null,
           "fuerza": null,
-          "nutricion": "Día de descanso",
+          "nutricion": "Víspera de tirada larga",
           "geles": false
         },
         {
           "fecha": "2026-12-12",
+          "tipo": "larga",
+          "titulo": "Tirada larga con final a ritmo maratón",
+          "clave": true,
+          "kmPlan": 13.3,
+          "minPlan": 88,
+          "objetivo": "11,3 km fáciles + 2 km a 5:48/km · FC 135-155 / 155-165",
+          "bloques": [
+            {
+              "parte": "calentamiento",
+              "texto": "Los primeros 10' (dentro de la distancia) más suaves todavía, con la FC por debajo de 140."
+            },
+            {
+              "parte": "principal",
+              "texto": "11,3 km a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+            },
+            {
+              "parte": "principal",
+              "texto": "Sin parar, los últimos 2 km a 5:48/km, con FC 155-165: ritmo maratón, cómodo y controlado, no de media. Busca un tramo llano para ese final."
+            },
+            {
+              "parte": "vuelta",
+              "texto": "5' andando. En la primera hora, hidratos y proteína (leche con cacao, o yogur con plátano)."
+            }
+          ],
+          "porque": "Correr rápido con las piernas cansadas: el final a ritmo maratón prepara el último tercio de la media.",
+          "alternativa": "Si llueve fuerte o hay mucho viento, pásala al domingo y descansa hoy: sigue siendo un solo día de fin de semana. No la partas en dos ni la hagas entera en cinta (como mucho 60' en cinta).",
+          "fuerza": null,
+          "nutricion": "Día de tirada larga",
+          "geles": false
+        },
+        {
+          "fecha": "2026-12-13",
           "tipo": "descanso",
-          "titulo": "Descanso (víspera del test)",
+          "titulo": "Descanso",
           "clave": false,
           "kmPlan": 0.0,
           "minPlan": 0,
@@ -2568,45 +2604,13 @@
           "bloques": [
             {
               "parte": "principal",
-              "texto": "Descanso. Si te apetece soltar piernas, activación opcional de 15-20' muy suaves con 4 strides, mejor por la mañana; si no, descanso total y llegas igual de fresco."
+              "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Llegar fresco al test sin entrenar fuerte los dos días del fin de semana.",
+          "porque": "Domingo de descanso: un solo día de fin de semana entrenando y empiezas la semana fresco.",
           "alternativa": null,
           "fuerza": null,
-          "nutricion": "Víspera de tirada larga",
-          "geles": false
-        },
-        {
-          "fecha": "2026-12-13",
-          "tipo": "test",
-          "titulo": "Test 10K · IX Mar Menor Running Challenge (La Manga)",
-          "clave": true,
-          "kmPlan": 13.8,
-          "minPlan": 84,
-          "objetivo": "10K: B ≤ 52:40 · A ≤ 51:15 · alarma > 55:30 (con ajuste por volumen)",
-          "bloques": [
-            {
-              "parte": "calentamiento",
-              "texto": "15' suaves (unos 2,2 km) + movilidad + 4 strides. Salida a las 12:00: desayuna hacia las 9:00 y sal de casa con margen (55-60' de coche)."
-            },
-            {
-              "parte": "principal",
-              "texto": "10K con reparto parejo: km 1-2 a 5:22-5:26 y, si vas cómodo, baja a 5:15-5:20 (la vía B pide 5:16 de media); aprieta en los 2 últimos. Pulsa vuelta en cada km y apunta tiempo final, parciales y FC media. Si sopla viento, corre por esfuerzo."
-            },
-            {
-              "parte": "principal",
-              "texto": "Cómo se lee: hasta aquí habrás promediado unos 25 km/semana y tu tirada más larga será de 12 km, así que el juez pide 30 s menos para confirmar vía. Vía B: 52:40 o menos; vía A: 51:15 o menos. Entre 52:41 y 55:30, sigues con los ritmos de la base hasta el test de la S12. Y para la S9-S10: con 54:20 o menos pasas a la columna de la base (VDOT ~37); por encima, sigues con la de ahora."
-            },
-            {
-              "parte": "vuelta",
-              "texto": "9-10' de trote muy suave (unos 1,3 km)."
-            }
-          ],
-          "porque": "Recalibra tu forma 8 semanas antes de la media: decide si en la S11 pasas a la vía B (o a la A) o sigues con los ritmos de la base.",
-          "alternativa": "Si no puedes ir o hace mucho viento: 10K en pista el sábado 12 o el domingo 13 por la mañana, con el mismo calentamiento (si lo haces el sábado, el domingo descansa).",
-          "fuerza": null,
-          "nutricion": "Mañana de carrera",
+          "nutricion": "Día de descanso",
           "geles": false
         }
       ]
@@ -2615,15 +2619,15 @@
       "n": 9,
       "inicio": "2026-12-14",
       "fase": "base",
-      "titulo": "15 km y primeros geles",
-      "kmPlan": 40.0,
+      "titulo": "Umbral 3×10' y primeros geles",
+      "kmPlan": 39.5,
       "descarga": false,
-      "nota": "Primera tirada de 15 km y primeros geles: lleva el mismo que usarás en carrera. Tras un 10K a tope, dos días sin calidad (lunes suave y martes de torso) y umbral 3×10' el miércoles, tres días después del test. Esta semana no hay control de FC (el lunes va justo después del 10K y no sería comparable): el siguiente, el lunes 28. Si el 10K de La Manga salió claramente mejor o peor de lo previsto, ajusta el ritmo de umbral 5-8 s/km.",
+      "nota": "Bloques de umbral más largos el miércoles (3×10') y tirada de 14,6 km con los primeros geles: lleva el mismo que usarás en carrera. Si el 5K salió claramente mejor o peor de lo previsto, ajusta el ritmo de umbral 5-8 s/km. El próximo control de FC, el lunes 28.",
       "dias": [
         {
           "fecha": "2026-12-14",
           "tipo": "facil",
-          "titulo": "Rodaje suave (después del 10K)",
+          "titulo": "Rodaje suave",
           "clave": false,
           "kmPlan": 5.9,
           "minPlan": 40,
@@ -2642,7 +2646,7 @@
               "texto": "5' andando y 5' de movilidad de tobillos y caderas."
             }
           ],
-          "porque": "Lunes después del 10K: rodaje suave para soltar piernas. Tras un test de 10 km, la calidad no vuelve hasta 3 días después: esta semana, el miércoles.",
+          "porque": "Rodaje suave en Z2 para empezar la semana: suma fondo sin cansar y, con el torso del martes en medio, llegas fresco a la calidad del miércoles.",
           "alternativa": "Si llueve, sopla fuerte o se te hace muy de noche: cinta al 1 % de inclinación con la misma FC. Si el trabajo se alarga, 25' bien hechos valen más que saltártelo.",
           "fuerza": null,
           "nutricion": "Rodaje suave",
@@ -2674,7 +2678,7 @@
               "texto": "5' de estiramientos suaves de pecho, dorsal y cadera."
             }
           ],
-          "porque": "Dos días después del 10K: cinta suave y opcional y tu torso. Las piernas terminan de recuperarse para el umbral del miércoles.",
+          "porque": "Torso para mantener lo que ya tienes y una cinta suave opcional que suma un poco de fondo sin cansar: entre el rodaje del lunes y la calidad del miércoles, las piernas descansan. Si quitas la cinta, la semana funciona igual.",
           "alternativa": "La cinta es lo prescindible de la semana: si vas cansado o justo de tiempo, quítala sin remordimientos y haz solo el torso. Si no puedes ir al gimnasio: 20-30' suaves en la calle si te apetece y, en casa, flexiones, remo con goma o mochila y plancha lateral (2-3×10-15); o se pierde y no pasa nada.",
           "fuerza": "T",
           "nutricion": "Víspera de series o tempo",
@@ -2702,7 +2706,7 @@
               "texto": "8' muy suaves y movilidad."
             }
           ],
-          "porque": "Primera calidad tras el 10K, tres días después: sube tu umbral con bloques más largos. Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
+          "porque": "Bloques más largos a umbral: más tiempo seguido a tu ritmo de umbral. Sube tu umbral, el ritmo que podrías aguantar cerca de una hora: cuanto más alto, más rápido irás en la media con la misma FC.",
           "alternativa": "Si llueve, hay viento o no tienes un sitio llano iluminado: cinta al 1 % con los mismos ritmos. Si el trabajo se alarga, versión corta: 10' de calentamiento + 2×10' + 5' suaves.",
           "fuerza": null,
           "nutricion": "Día de series después del trabajo",
@@ -2758,7 +2762,7 @@
               "texto": "Descanso total. Si te apetece, paseo de 20-30' y 10' de movilidad."
             }
           ],
-          "porque": "Viernes de descanso: llegas fresco a tu primera tirada de 15 km.",
+          "porque": "Viernes de descanso: llegas fresco a la tirada con geles.",
           "alternativa": null,
           "fuerza": null,
           "nutricion": "Víspera de tirada larga",
@@ -2769,9 +2773,9 @@
           "tipo": "larga",
           "titulo": "Tirada larga fácil + geles",
           "clave": true,
-          "kmPlan": 15.1,
-          "minPlan": 102,
-          "objetivo": "15,1 km a 6:30-7:05/km · FC 135-155 · geles",
+          "kmPlan": 14.6,
+          "minPlan": 99,
+          "objetivo": "14,6 km a 6:30-7:05/km · FC 135-155 · geles",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -2779,7 +2783,7 @@
             },
             {
               "parte": "principal",
-              "texto": "15,1 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
+              "texto": "14,6 km continuos a 6:30-7:05/km con FC 135-155. Corres en llano y manda la FC, no el ritmo: si te pasas del techo de la zona, baja el ritmo hasta volver a ella."
             },
             {
               "parte": "principal",
@@ -3032,7 +3036,7 @@
       "titulo": "Vía B y primera de 18 km",
       "kmPlan": 45.5,
       "descarga": false,
-      "nota": "Pasas a la vía B si el 10K de la S8 la confirmó (o a la A); si no, sigues con los ritmos de la base hasta el test de la S12. Control de FC el lunes, alternos el miércoles, cinta suave y pierna el jueves (Nochevieja) y la primera tirada de más de 18 km el sábado 2. En Nochevieja, a celebrar con cabeza.",
+      "nota": "Pasas a la vía B si el 5K de la S7 la confirmó (o a la A); si no, sigues con los ritmos de la base hasta el test de la S12. Control de FC el lunes, alternos el miércoles, cinta suave y pierna el jueves (Nochevieja) y la primera tirada de más de 18 km el sábado 2. En Nochevieja, a celebrar con cabeza.",
       "dias": [
         {
           "fecha": "2026-12-28",
@@ -3109,11 +3113,11 @@
             },
             {
               "parte": "principal",
-              "texto": "6 km sin parar alternando 1 km a 5:17-5:20 (algo más rápido que tu ritmo de media) y 1 km a 5:54-6:02, 3 veces. Vía A, solo si el 10K de la S8 la confirmó: 5:09-5:12 / 5:46-5:53. En llano o pista; el km lento no es descanso: va algo más lento que el ritmo maratón, pero sin aflojar."
+              "texto": "6 km sin parar alternando 1 km a 5:17-5:20 (algo más rápido que tu ritmo de media) y 1 km a 5:54-6:02, 3 veces. Vía A, solo si el 5K de la S7 la confirmó: 5:09-5:12 / 5:46-5:53. En llano o pista; el km lento no es descanso: va algo más lento que el ritmo maratón, pero sin aflojar."
             },
             {
               "parte": "principal",
-              "texto": "Si el 10K de la S8 no confirmó la vía B, haz los alternos sobre tu ritmo de media actual (5:37): 5:27-5:30 / 6:06-6:14."
+              "texto": "Si el 5K de la S7 no confirmó la vía B, haz los alternos sobre tu ritmo de media actual (5:37): 5:27-5:30 / 6:06-6:14."
             },
             {
               "parte": "vuelta",
@@ -3312,7 +3316,7 @@
           "clave": true,
           "kmPlan": 8.4,
           "minPlan": 51,
-          "objetivo": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó) · FC 176-181 · rec 1'",
+          "objetivo": "3×8' a 5:16/km (vía A: 5:08 si el 5K de la S7 la confirmó) · FC 176-181 · rec 1'",
           "bloques": [
             {
               "parte": "calentamiento",
@@ -3320,7 +3324,7 @@
             },
             {
               "parte": "principal",
-              "texto": "3×8' a 5:16/km (vía A: 5:08 si el 10K de la S8 la confirmó), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el 10K de la S8 no confirmó la vía B, a 5:25/km."
+              "texto": "3×8' a 5:16/km (vía A: 5:08 si el 5K de la S7 la confirmó), con FC 176-181 y 1' de trote muy suave entre series. En pista o llano. Esfuerzo 7/10: duro pero controlado, podrías decir unas pocas palabras. Si el 5K de la S7 no confirmó la vía B, a 5:25/km."
             },
             {
               "parte": "vuelta",
