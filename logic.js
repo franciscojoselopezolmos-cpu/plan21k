@@ -8,7 +8,7 @@
  * (25-oct-2026, 28-mar-2027) no mueve ninguna fecha.
  */
 
-export const APP_VERSION = '1.1.0';
+export const APP_VERSION = '1.1.1';
 export const CLAVE_ESTADO = 'plan21k.v1';
 export const DIST_MEDIA = 21.0975;
 export const ZONAS_DOLOR = ['gemelo', 'sóleo', 'Aquiles', 'rodilla', 'cintilla', 'fascia', 'cadera', 'espalda', 'otro'];
@@ -334,6 +334,7 @@ export const CONTEXTOS_NUTRICION = [
   'Tirada larga con práctica de geles', 'Semana de carrera (días -7 a -3)',
   'Semana de carrera (días -2 y -1: carga de hidratos)', 'Mañana de carrera', 'Durante la carrera',
   'Después de la carrera', 'Calor', 'Frío', 'Si duermes mal', 'Fatiga persistente', 'Vuelta tras el parón',
+  'Enfermo o con fiebre',
 ];
 
 /** FNV-1a de 32 bits: el mismo texto da siempre el mismo número. */

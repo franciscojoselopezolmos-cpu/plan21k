@@ -5,7 +5,7 @@
  * - Borra las cachés antiguas (incluida "plan21k-prueba-1"), skipWaiting y clients.claim.
  * Al publicar una versión nueva, sube VERSION (y APP_VERSION en logic.js).
  */
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 const CACHE_SHELL = `plan21k-shell-${VERSION}`;
 const CACHE_DATOS = 'plan21k-datos-v1';
 const SHELL = [
